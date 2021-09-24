@@ -231,8 +231,8 @@
                 << "Current line: " << s << "\n";
                 assert(false);
             }
-            vid_t from = atoi(t1);
-            vid_t to = atoi(t2);
+            vid_t from = atoll(t1);
+            vid_t to = atoll(t2);
             if( from == to ) continue;
             max_vert = max_value(max_vert, from);
             max_vert = max_value(max_vert, to);

@@ -76,9 +76,9 @@ int main(int argc, const char ** argv){
     metrics m("randomwalks");
     
     std::string filename = get_option_string("file", "../../raid0_mnop/LiveJournal/soc-LiveJournal1.txt");  // Base filename
-    vid_t N = get_option_int("N", 4847571); // Number of vertices
+    vid_t N = get_option_long("N", 4847571); // Number of vertices
     wid_t R = get_option_long("R", 10000); // Number of steps
-    hid_t L = get_option_int("L", 4); // Number of steps per walk
+    hid_t L = get_option_long("L", 4); // Number of steps per walk
     float prob = get_option_float("prob", 0.2); // prob of chose min step
     unsigned long long blocksize_kb = get_option_long("blocksize_kb", 0); // Size of block, represented in KB
     bid_t nmblocks = get_option_int("nmblocks", 0); // number of in-memory blocks

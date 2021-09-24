@@ -101,10 +101,10 @@ int main(int argc, const char ** argv) {
     
     /* Basic arguments for application */
     std::string filename = get_option_string("file", "../../raid0_mnop/LiveJournal/soc-LiveJournal1.txt");  // Base filename
-    vid_t firstsource = get_option_int("firstsource", 0); // vertex id of start source
-    vid_t numsources = get_option_int("numsources", 1); // Number of sources
+    vid_t firstsource = get_option_long("firstsource", 0); // vertex id of start source
+    vid_t numsources = get_option_long("numsources", 1); // Number of sources
     wid_t walkspersource = get_option_long("walkspersource", 2000); // Number of steps
-    hid_t maxwalklength = get_option_int("maxwalklength", 10); // Number of steps per walk
+    hid_t maxwalklength = get_option_long("maxwalklength", 10); // Number of steps per walk
     float prob = get_option_float("prob", 0.2); // prob of chose min step
 
     unsigned long long blocksize_kb = get_option_long("blocksize_kb", 0); // Size of block, represented in KB

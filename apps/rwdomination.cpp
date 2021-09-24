@@ -79,9 +79,9 @@ int main(int argc, const char ** argv) {
     
     /* Basic arguments for application */
     std::string filename = get_option_string("file", "../dataset/LiveJournal/soc-LiveJournal1.txt");  // Base filename
-    unsigned N = get_option_int("N", 4847571); // Number of vertices
-    unsigned R = get_option_int("R", 1); // Number of steps
-    unsigned L = get_option_int("L", 6); // Number of steps per walk
+    vid_t N = get_option_long("N", 4847571); // Number of vertices
+    wid_t R = get_option_long("R", 1); // Number of steps
+    hid_t L = get_option_long("L", 6); // Number of steps per walk
     float prob = get_option_float("prob", 0.2); // prob of chose min step
     unsigned long long blocksize_kb = get_option_long("blocksize_kb", 0); // Size of block, represented in KB
     bid_t nmblocks = get_option_int("nmblocks", 0); // number of in-memory blocks

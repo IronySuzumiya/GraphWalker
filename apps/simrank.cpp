@@ -90,10 +90,10 @@ int main(int argc, const char ** argv) {
     
     /* Basic arguments for application */
     std::string filename = get_option_string("file", "../DataSet/LiveJournal/soc-LiveJournal1.txt");  // Base filename
-    vid_t a = get_option_int("a", 1); // vertex id of start source
-    vid_t b = get_option_int("b", 2); // Number of sources
-    wid_t R = get_option_int("R", 1000); // Number of steps
-    hid_t L = get_option_int("L", 11); // Number of steps per walk
+    vid_t a = get_option_long("a", 1); // vertex id of start source
+    vid_t b = get_option_long("b", 2); // Number of sources
+    wid_t R = get_option_long("R", 1000); // Number of steps
+    hid_t L = get_option_long("L", 11); // Number of steps per walk
     float prob = get_option_float("prob", 0.2); // prob of chose min step
     unsigned long long blocksize_kb = get_option_long("blocksize_kb", 0); // Size of block, represented in KB
     bid_t nmblocks = get_option_int("nmblocks", 0); // number of in-memory blocks
