@@ -13,7 +13,7 @@
 //#define	MEM_BUDGET	44 * 1024 * 1024 // for 64GB memory machine
 #define	MEM_BUDGET	4 * 1024 * 1024 // for 8GB memory machine
 
-typedef uint64_t vid_t;
+typedef uint32_t vid_t;
 typedef uint64_t eid_t;
 typedef uint64_t wid_t; //type of id of walks
 typedef uint32_t bid_t; //type of id of blocks
