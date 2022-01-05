@@ -49,6 +49,8 @@ public:
     metrics &m;
     WalkManager *walk_manager;
 
+    uint32_t epoch;
+
     uint64_t subgraph_read_times;
     uint64_t subgraph_read_bytes;
         
@@ -76,7 +78,7 @@ public:
      */
     graphwalker_engine(std::string _base_filename, unsigned long long _blocksize_kb, bid_t _nblocks, bid_t _nmblocks, metrics &_m)
         : base_filename(_base_filename), blocksize_kb(_blocksize_kb), nblocks(_nblocks), nmblocks(_nmblocks), m(_m),
-          subgraph_read_times(0), subgraph_read_bytes(0) {
+          epoch(0), subgraph_read_times(0), subgraph_read_bytes(0) {
         // membudget_mb = get_option_int("membudget_mb", 1024);
         exec_threads = get_option_int("execthreads", omp_get_max_threads());
         omp_set_num_threads(exec_threads);
@@ -291,9 +293,19 @@ public:
             // if(blockcount % (nblocks/100+1)==1)
             if(blockcount % (1024*1024*1024/nedges+1) == 1)
             {
-                logstream(LOG_DEBUG) << runtime() << "s : blockcount: " << blockcount << std::endl;
-                logstream(LOG_INFO) << "nverts = " << nverts << ", nedges = " << nedges << std::endl;
-                logstream(LOG_INFO) << "walksum = " << walk_manager->walksum << ", nwalks[" << exec_block << "] = " << nwalks << std::endl;
+                std::cout << "[epoch_" << epoch << "]" << std::endl;
+                std::cout << "time = " << runtime() << std::endl;
+                std::cout << "blockcount = " << blockcount << std::endl;
+                //std::cout << "nverts = " << nverts << ", nedges = " << nedges << std::endl;
+                std::cout << "walksum = " << walk_manager->walksum << std::endl;
+                std::cout << "nwalks_" << exec_block << " = " << nwalks << std::endl;
+                std::cout << "subgraph_read_times = " << subgraph_read_times << std::endl;
+                std::cout << "subgraph_read_bytes = " << subgraph_read_bytes << std::endl;
+                std::cout << "walk_read_times = " << walk_manager->walk_read_times << std::endl;
+                std::cout << "walk_read_bytes = " << walk_manager->walk_read_bytes << std::endl;
+                std::cout << "walk_write_times = " << walk_manager->walk_write_times << std::endl;
+                std::cout << "walk_write_bytes = " << walk_manager->walk_write_bytes << std::endl;
+                ++epoch;
             }
             
             exec_updates(userprogram, nwalks, beg_pos, csr);
@@ -304,6 +316,8 @@ public:
         m.stop_time("00_runtime");
 
         std::cout << std::endl;
+        std::cout << "[summary]" << std::endl;
+        std::cout << "nepochs = " << epoch << std::endl;
         std::cout << "subgraph read times = " << subgraph_read_times << std::endl;
         std::cout << "subgraph read bytes = " << subgraph_read_bytes << std::endl;
         std::cout << "walk read times = " << walk_manager->walk_read_times << std::endl;
