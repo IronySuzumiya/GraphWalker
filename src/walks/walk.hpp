@@ -33,8 +33,15 @@ public:
 
 	bool* ismodified;
 
+	uint64_t walk_read_times;
+	uint64_t walk_read_bytes;
+	uint64_t walk_write_times;
+	uint64_t walk_write_bytes;
+
 public:
-	WalkManager(metrics &_m,bid_t _nblocks, tid_t _nthreads, std::string _base_filename):base_filename(_base_filename), nblocks(_nblocks), nthreads(_nthreads), m(_m){
+	WalkManager(metrics &_m,bid_t _nblocks, tid_t _nthreads, std::string _base_filename)
+		: base_filename(_base_filename), nblocks(_nblocks), nthreads(_nthreads), m(_m),
+			walk_read_times(0), walk_read_bytes(0), walk_write_times(0), walk_write_bytes(0) {
 		pwalks = new WalkBuffer*[nthreads];
 		for(tid_t i = 0; i < nthreads; i++)
 			pwalks[i] = new WalkBuffer[nblocks];
@@ -103,6 +110,10 @@ public:
 		m.start_time("4_writeWalks2Disk");
 		std::string walksfile = walksname( base_filename, p );
 		int f = open(walksfile.c_str(), O_WRONLY | O_CREAT | O_APPEND, S_IROTH | S_IWOTH | S_IWUSR | S_IRUSR);
+
+		++walk_write_times;
+
+		walk_write_bytes += pwalks[t][p].size_w*sizeof(WalkDataType);
 		pwritea( f, &pwalks[t][p][0], pwalks[t][p].size_w*sizeof(WalkDataType) );
 		dwalknum[p] += pwalks[t][p].size_w;
 		pwalks[t][p].size_w = 0;
@@ -142,7 +153,11 @@ public:
 			logstream(LOG_FATAL) << "Could not load :" << walksfile << " error: " << strerror(errno) << std::endl;
 		}
 		assert(f > 0);
+
+		++walk_read_times;
+
 		/* read from file*/
+		walk_read_bytes += dwalknum[p]*sizeof(WalkDataType);
 		preada(f, &curwalks[0], dwalknum[p]*sizeof(WalkDataType), 0);
 		/* 清空文件 */
     	ftruncate(f,0);

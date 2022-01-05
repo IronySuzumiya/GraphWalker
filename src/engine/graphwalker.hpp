@@ -48,6 +48,9 @@ public:
     /* Metrics */
     metrics &m;
     WalkManager *walk_manager;
+
+    uint64_t subgraph_read_times;
+    uint64_t subgraph_read_bytes;
         
     void print_config() {
         logstream(LOG_INFO) << "Engine configuration: " << std::endl;
@@ -71,7 +74,9 @@ public:
      * @param nblocks number of shards
      * @param selective_scheduling if true, uses selective scheduling 
      */
-    graphwalker_engine(std::string _base_filename, unsigned long long _blocksize_kb, bid_t _nblocks, bid_t _nmblocks, metrics &_m) : base_filename(_base_filename), blocksize_kb(_blocksize_kb), nblocks(_nblocks), nmblocks(_nmblocks), m(_m) {
+    graphwalker_engine(std::string _base_filename, unsigned long long _blocksize_kb, bid_t _nblocks, bid_t _nmblocks, metrics &_m)
+        : base_filename(_base_filename), blocksize_kb(_blocksize_kb), nblocks(_nblocks), nmblocks(_nmblocks), m(_m),
+          subgraph_read_times(0), subgraph_read_bytes(0) {
         // membudget_mb = get_option_int("membudget_mb", 1024);
         exec_threads = get_option_int("execthreads", omp_get_max_threads());
         omp_set_num_threads(exec_threads);
@@ -182,7 +187,11 @@ public:
         //     perror("beg_pos alloc mmap");
         //     exit(-1);
         // }
+
+        ++subgraph_read_times;
+
         m.start_time("z__g_loadSubGraph_read_begpos");
+        subgraph_read_bytes += (size_t)(*nverts+1)*sizeof(eid_t);
         preada(beg_posf, beg_pos, (size_t)(*nverts+1)*sizeof(eid_t), (size_t)blocks[p]*sizeof(eid_t));        
         m.stop_time("z__g_loadSubGraph_read_begpos");
         /* read csr file */
@@ -193,6 +202,7 @@ public:
         }
         m.stop_time("z__g_loadSubGraph_realloc_csr");     
         m.start_time("z__g_loadSubGraph_read_csr");
+        subgraph_read_bytes += (*nedges)*sizeof(vid_t);
         preada(csrf, csr, (*nedges)*sizeof(vid_t), beg_pos[0]*sizeof(vid_t));
         m.stop_time("z__g_loadSubGraph_read_csr");     
 
@@ -292,6 +302,15 @@ public:
 
         } // For block loop
         m.stop_time("00_runtime");
+
+        std::cout << std::endl;
+        std::cout << "subgraph read times = " << subgraph_read_times << std::endl;
+        std::cout << "subgraph read bytes = " << subgraph_read_bytes << std::endl;
+        std::cout << "walk read times = " << walk_manager->walk_read_times << std::endl;
+        std::cout << "walk read bytes = " << walk_manager->walk_read_bytes << std::endl;
+        std::cout << "walk write times = " << walk_manager->walk_write_times << std::endl;
+        std::cout << "walk write bytes = " << walk_manager->walk_write_bytes << std::endl;
+        std::cout << std::endl;
     }
 };
 
