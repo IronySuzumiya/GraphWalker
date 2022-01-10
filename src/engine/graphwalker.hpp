@@ -274,6 +274,8 @@ public:
         gettimeofday(&start, NULL);
         m.start_time("00_runtime");
 
+        double my_time = runtime();
+
         vid_t nverts, *csr;
         eid_t nedges, *beg_pos;
         /*loadOnDemand -- block loop */
@@ -289,10 +291,13 @@ public:
             // walk_manager->loadWalkPool(exec_block);
             wid_t nwalks; 
             nwalks = walk_manager->getCurrentWalks(exec_block);
-            
+
+            double my_new_time = runtime();
+            if(my_new_time >= my_time + 5) {
+                my_time = my_new_time;
             // if(blockcount % (nblocks/100+1)==1)
-            if(blockcount % (1024*1024*1024/nedges+1) == 1)
-            {
+            //if(blockcount % (1024*1024*1024/nedges+1) == 1)
+            //{
                 std::cout << "[epoch_" << epoch << "]" << std::endl;
                 std::cout << "time = " << runtime() << std::endl;
                 std::cout << "blockcount = " << blockcount << std::endl;
