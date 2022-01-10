@@ -323,12 +323,12 @@ public:
         std::cout << std::endl;
         std::cout << "[summary]" << std::endl;
         std::cout << "nepochs = " << epoch << std::endl;
-        std::cout << "subgraph read times = " << subgraph_read_times << std::endl;
-        std::cout << "subgraph read bytes = " << subgraph_read_bytes << std::endl;
-        std::cout << "walk read times = " << walk_manager->walk_read_times << std::endl;
-        std::cout << "walk read bytes = " << walk_manager->walk_read_bytes << std::endl;
-        std::cout << "walk write times = " << walk_manager->walk_write_times << std::endl;
-        std::cout << "walk write bytes = " << walk_manager->walk_write_bytes << std::endl;
+        std::cout << "subgraph_read_times = " << subgraph_read_times << std::endl;
+        std::cout << "subgraph_read_bytes = " << subgraph_read_bytes << std::endl;
+        std::cout << "walk_read_times = " << walk_manager->walk_read_times << std::endl;
+        std::cout << "walk_read_bytes = " << walk_manager->walk_read_bytes << std::endl;
+        std::cout << "walk_write_times = " << walk_manager->walk_write_times << std::endl;
+        std::cout << "walk_write_bytes = " << walk_manager->walk_write_bytes << std::endl;
         std::cout << std::endl;
     }
 };
