@@ -1,0 +1,82 @@
+bin/apps/rawrandomwalks file Dataset/rmat2b.txt N 62499942 R 10000000 L 4
+Random walks:	Start 10000000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		15
+[Timings]
+00_runtime:		5.41608 s
+0_startWalks:		2.15065 s
+1_chooseBlock:		2.7e-05s	 (count: 59, min: 0s, max: 1e-06, avg: 4.57627e-07s)
+2_findSubGraph:		4.37338s	 (count: 59, min: 0s, max: 0.23034, avg: 0.0741251s)
+3_getCurrentWalks:		0.079372s	 (count: 59, min: 1e-06s, max: 0.005691, avg: 0.00134529s)
+4_writeWalks2Disk:		0.245788s	 (count: 8838, min: 0s, max: 0.000606, avg: 2.78104e-05s)
+5_exec_updates:		0.962438s	 (count: 59, min: 8e-06s, max: 0.056017, avg: 0.0163125s)
+6_updateWalkNum:		0.00052s	 (count: 59, min: 0s, max: 0.000416, avg: 8.81356e-06s)
+g_loadSubGraph:		4.36591s	 (count: 36, min: 0.059853s, max: 0.23034, avg: 0.121275s)
+z__g_loadSubGraph_read_begpos:		0.332473s	 (count: 36, min: 0.00057s, max: 0.047661, avg: 0.00923536s)
+z__g_loadSubGraph_read_csr:		4.03305s	 (count: 36, min: 0.057724s, max: 0.225871, avg: 0.112029s)
+z__g_loadSubGraph_realloc_csr:		1.5e-05s	 (count: 36, min: 0s, max: 1e-06, avg: 4.16667e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.000437s	 (count: 59, min: 0s, max: 0.000403, avg: 7.40678e-06s)
+z_w_readWalksfromDisk:		0.076886s	 (count: 48, min: 2.3e-05s, max: 0.005594, avg: 0.00160179s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/rmat2b.txt
+
+
+Random walks:	Start 10000000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		15
+[Timings]
+00_runtime:		5.32346 s
+0_startWalks:		2.13957 s
+1_chooseBlock:		2.7e-05s	 (count: 57, min: 0s, max: 1e-06, avg: 4.73684e-07s)
+2_findSubGraph:		4.27769s	 (count: 57, min: 0s, max: 0.223807, avg: 0.0750472s)
+3_getCurrentWalks:		0.079429s	 (count: 57, min: 2e-06s, max: 0.005664, avg: 0.00139349s)
+4_writeWalks2Disk:		0.254352s	 (count: 8834, min: 0s, max: 0.002182, avg: 2.87924e-05s)
+5_exec_updates:		0.965472s	 (count: 57, min: 4.4e-05s, max: 0.054286, avg: 0.0169381s)
+6_updateWalkNum:		0.000518s	 (count: 57, min: 1e-06s, max: 0.000421, avg: 9.08772e-06s)
+g_loadSubGraph:		4.27609s	 (count: 36, min: 0.058966s, max: 0.223807, avg: 0.11878s)
+z__g_loadSubGraph_read_begpos:		0.288018s	 (count: 36, min: 0.000557s, max: 0.046082, avg: 0.0080005s)
+z__g_loadSubGraph_read_csr:		3.98777s	 (count: 36, min: 0.057684s, max: 0.198623, avg: 0.110771s)
+z__g_loadSubGraph_realloc_csr:		1e-05s	 (count: 36, min: 0s, max: 1e-06, avg: 2.77778e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.000445s	 (count: 57, min: 0s, max: 0.000409, avg: 7.80702e-06s)
+z_w_readWalksfromDisk:		0.076881s	 (count: 48, min: 2.4e-05s, max: 0.005565, avg: 0.00160169s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/rmat2b.txt
+
+
+Random walks:	Start 10000000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		15
+[Timings]
+00_runtime:		5.32412 s
+0_startWalks:		2.12862 s
+1_chooseBlock:		2e-05s	 (count: 57, min: 0s, max: 1e-06, avg: 3.50877e-07s)
+2_findSubGraph:		4.28206s	 (count: 57, min: 0s, max: 0.223315, avg: 0.0751238s)
+3_getCurrentWalks:		0.079042s	 (count: 57, min: 2e-06s, max: 0.005635, avg: 0.0013867s)
+4_writeWalks2Disk:		0.245105s	 (count: 8845, min: 0s, max: 9.4e-05, avg: 2.77111e-05s)
+5_exec_updates:		0.962155s	 (count: 57, min: 4.2e-05s, max: 0.055707, avg: 0.0168799s)
+6_updateWalkNum:		0.000511s	 (count: 57, min: 1e-06s, max: 0.00041, avg: 8.96491e-06s)
+g_loadSubGraph:		4.2795s	 (count: 36, min: 0.061015s, max: 0.223314, avg: 0.118875s)
+z__g_loadSubGraph_read_begpos:		0.306381s	 (count: 36, min: 0.002019s, max: 0.046959, avg: 0.00851058s)
+z__g_loadSubGraph_read_csr:		3.97277s	 (count: 36, min: 0.057934s, max: 0.191896, avg: 0.110355s)
+z__g_loadSubGraph_realloc_csr:		1.6e-05s	 (count: 36, min: 0s, max: 1e-06, avg: 4.44444e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.000432s	 (count: 57, min: 0s, max: 0.000409, avg: 7.57895e-06s)
+z_w_readWalksfromDisk:		0.076642s	 (count: 48, min: 2.2e-05s, max: 0.005533, avg: 0.00159671s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/rmat2b.txt
+
+

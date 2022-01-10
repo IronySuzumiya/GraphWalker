@@ -1,0 +1,123 @@
+Random walks:	Start 400000000 walks randomly ...
+[epoch_0]
+time = 0.48167
+blockcount = 1
+walksum = 400000000
+nwalks_0 = 12171033
+subgraph_read_times = 1
+subgraph_read_bytes = 1088676096
+walk_read_times = 1
+walk_read_bytes = 97058816
+walk_write_times = 97587
+walk_write_bytes = 3197730816
+[epoch_1]
+time = 14.7786
+blockcount = 6
+walksum = 399728375
+nwalks_3 = 95840996
+subgraph_read_times = 6
+subgraph_read_bytes = 6257613916
+walk_read_times = 6
+walk_read_bytes = 3590488064
+walk_write_times = 183701
+walk_write_bytes = 6019317760
+[epoch_2]
+time = 31.9177
+blockcount = 11
+walksum = 391971727
+nwalks_4 = 110935588
+subgraph_read_times = 8
+subgraph_read_bytes = 8499999600
+walk_read_times = 11
+walk_read_bytes = 7797571584
+walk_write_times = 306490
+walk_write_bytes = 10042572800
+[epoch_3]
+time = 58.8645
+blockcount = 21
+walksum = 232182652
+nwalks_3 = 66753510
+subgraph_read_times = 15
+subgraph_read_bytes = 15842619668
+walk_read_times = 21
+walk_read_bytes = 14540374016
+walk_write_times = 484003
+walk_write_bytes = 15858958336
+[epoch_4]
+time = 64.603
+blockcount = 26
+walksum = 128475875
+nwalks_6 = 42469118
+subgraph_read_times = 19
+subgraph_read_bytes = 20338127004
+walk_read_times = 26
+walk_read_bytes = 15968206848
+walk_write_times = 508188
+walk_write_bytes = 16651354112
+[epoch_5]
+time = 68.0052
+blockcount = 31
+walksum = 32148336
+nwalks_5 = 8841223
+subgraph_read_times = 21
+subgraph_read_bytes = 22587253536
+walk_read_times = 31
+walk_read_bytes = 16879845376
+walk_write_times = 520699
+walk_write_bytes = 17061281792
+[epoch_6]
+time = 69.0231
+blockcount = 36
+walksum = 4688693
+nwalks_7 = 2134351
+subgraph_read_times = 24
+subgraph_read_bytes = 25957640652
+walk_read_times = 36
+walk_read_bytes = 17081204736
+walk_write_times = 521784
+walk_write_bytes = 17096835072
+[epoch_7]
+time = 69.5657
+blockcount = 41
+walksum = 228686
+nwalks_1 = 164376
+subgraph_read_times = 27
+subgraph_read_bytes = 29288702432
+walk_read_times = 41
+walk_read_bytes = 17101291520
+walk_write_times = 521812
+walk_write_bytes = 17097752576
+
+[summary]
+nepochs = 8
+subgraph read times = 28
+subgraph read bytes = 30469045296
+walk read times = 41
+walk read bytes = 17101291520
+walk write times = 521812
+walk write bytes = 17097752576
+
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		8
+[Timings]
+00_runtime:		69.7222 s
+0_startWalks:		99.0354 s
+1_chooseBlock:		4.2e-05s	 (count: 43, min: 0s, max: 2e-06, avg: 9.76744e-07s)
+2_findSubGraph:		7.26127s	 (count: 43, min: 0s, max: 0.49023, avg: 0.168867s)
+3_getCurrentWalks:		6.81038s	 (count: 43, min: 0.000155s, max: 0.880922, avg: 0.158381s)
+4_writeWalks2Disk:		14.2241s	 (count: 521829, min: 0s, max: 0.004935, avg: 2.72583e-05s)
+5_exec_updates:		55.1456s	 (count: 43, min: 0.00063s, max: 3.41813, avg: 1.28246s)
+6_updateWalkNum:		0.50169s	 (count: 43, min: 1e-06s, max: 0.02549, avg: 0.0116672s)
+g_loadSubGraph:		7.22291s	 (count: 28, min: 0.134869s, max: 0.490229, avg: 0.257961s)
+z__g_loadSubGraph_read_begpos:		0.673554s	 (count: 28, min: 0.001946s, max: 0.059587, avg: 0.0240555s)
+z__g_loadSubGraph_read_csr:		6.5489s	 (count: 28, min: 0.121137s, max: 0.43444, avg: 0.233889s)
+z__g_loadSubGraph_realloc_csr:		1.5e-05s	 (count: 28, min: 0s, max: 1e-06, avg: 5.35714e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.501559s	 (count: 43, min: 0s, max: 0.025485, avg: 0.0116642s)
+z_w_readWalksfromDisk:		6.80308s	 (count: 41, min: 0.00035s, max: 0.880738, avg: 0.165929s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/rmat2b.txt

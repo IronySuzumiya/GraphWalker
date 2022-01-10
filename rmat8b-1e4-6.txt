@@ -1,0 +1,76 @@
+bin/apps/rawrandomwalks file Dataset/rmat8b.txt N 250000000 R 10000 L 6
+Random walks:	Start 10000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		477
+[Timings]
+00_runtime:		33.3519 s
+0_startWalks:		0.010411 s
+1_chooseBlock:		0.00174s	 (count: 2154, min: 0s, max: 5e-06, avg: 8.07799e-07s)
+2_findSubGraph:		33.3019s	 (count: 2154, min: 0s, max: 0.224268, avg: 0.0154605s)
+3_getCurrentWalks:		0.002274s	 (count: 2154, min: 0s, max: 7e-06, avg: 1.05571e-06s)
+5_exec_updates:		0.033945s	 (count: 2154, min: 0s, max: 0.001346, avg: 1.57591e-05s)
+6_updateWalkNum:		0.007538s	 (count: 2154, min: 0s, max: 1.5e-05, avg: 3.49954e-06s)
+g_loadSubGraph:		33.2846s	 (count: 1865, min: 0.007294s, max: 0.224264, avg: 0.017847s)
+z__g_loadSubGraph_read_begpos:		1.75718s	 (count: 1865, min: 9e-06s, max: 0.014946, avg: 0.00094219s)
+z__g_loadSubGraph_read_csr:		31.5217s	 (count: 1865, min: 0.007245s, max: 0.223804, avg: 0.0169017s)
+z__g_loadSubGraph_realloc_csr:		0.000247s	 (count: 1865, min: 0s, max: 1e-06, avg: 1.3244e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.000353s	 (count: 2154, min: 0s, max: 5e-06, avg: 1.63881e-07s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/rmat8b.txt
+
+
+Random walks:	Start 10000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		477
+[Timings]
+00_runtime:		30.857 s
+0_startWalks:		0.016702 s
+1_chooseBlock:		0.001643s	 (count: 2155, min: 0s, max: 5e-06, avg: 7.62413e-07s)
+2_findSubGraph:		30.6412s	 (count: 2155, min: 0s, max: 0.042404, avg: 0.0142186s)
+3_getCurrentWalks:		0.00249s	 (count: 2155, min: 0s, max: 2.1e-05, avg: 1.15545e-06s)
+5_exec_updates:		0.199088s	 (count: 2155, min: 0s, max: 0.08452, avg: 9.23842e-05s)
+6_updateWalkNum:		0.008222s	 (count: 2155, min: 0s, max: 1.2e-05, avg: 3.81531e-06s)
+g_loadSubGraph:		30.6265s	 (count: 1857, min: 0.007178s, max: 0.042402, avg: 0.0164925s)
+z__g_loadSubGraph_read_begpos:		2.20134s	 (count: 1857, min: 8e-06s, max: 0.01938, avg: 0.00118543s)
+z__g_loadSubGraph_read_csr:		28.4192s	 (count: 1857, min: 0.007112s, max: 0.028992, avg: 0.0153038s)
+z__g_loadSubGraph_realloc_csr:		0.000214s	 (count: 1857, min: 0s, max: 4e-06, avg: 1.1524e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.000338s	 (count: 2155, min: 0s, max: 4e-06, avg: 1.56845e-07s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/rmat8b.txt
+
+
+Random walks:	Start 10000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		477
+[Timings]
+00_runtime:		31.1366 s
+0_startWalks:		0.014022 s
+1_chooseBlock:		0.001723s	 (count: 2156, min: 0s, max: 4.2e-05, avg: 7.99165e-07s)
+2_findSubGraph:		30.9338s	 (count: 2156, min: 0s, max: 0.108432, avg: 0.0143478s)
+3_getCurrentWalks:		0.002394s	 (count: 2156, min: 0s, max: 2.4e-05, avg: 1.11039e-06s)
+5_exec_updates:		0.180513s	 (count: 2156, min: 0s, max: 0.075222, avg: 8.37259e-05s)
+6_updateWalkNum:		0.007905s	 (count: 2156, min: 0s, max: 2.4e-05, avg: 3.66651e-06s)
+g_loadSubGraph:		30.9208s	 (count: 1871, min: 0.007165s, max: 0.108015, avg: 0.0165263s)
+z__g_loadSubGraph_read_begpos:		2.20603s	 (count: 1871, min: 9e-06s, max: 0.021974, avg: 0.00117907s)
+z__g_loadSubGraph_read_csr:		28.7094s	 (count: 1871, min: 0.007083s, max: 0.104975, avg: 0.0153444s)
+z__g_loadSubGraph_realloc_csr:		0.000208s	 (count: 1871, min: 0s, max: 1e-06, avg: 1.1117e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.000349s	 (count: 2156, min: 0s, max: 4e-06, avg: 1.61874e-07s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/rmat8b.txt
+
+

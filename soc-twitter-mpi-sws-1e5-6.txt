@@ -1,0 +1,82 @@
+bin/apps/rawrandomwalks file Dataset/soc-twitter-mpi-sws.txt N 41652231 R 100000 L 6
+Random walks:	Start 100000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		44
+[Timings]
+00_runtime:		3.25119 s
+0_startWalks:		0.029009 s
+1_chooseBlock:		6.3e-05s	 (count: 256, min: 0s, max: 1e-06, avg: 2.46094e-07s)
+2_findSubGraph:		3.13248s	 (count: 256, min: 0s, max: 0.060617, avg: 0.0122362s)
+3_getCurrentWalks:		0.002128s	 (count: 256, min: 0s, max: 7.9e-05, avg: 8.3125e-06s)
+4_writeWalks2Disk:		0.001383s	 (count: 33, min: 1.9e-05s, max: 7.9e-05, avg: 4.19091e-05s)
+5_exec_updates:		0.115791s	 (count: 256, min: 0s, max: 0.003733, avg: 0.000452309s)
+6_updateWalkNum:		0.000282s	 (count: 256, min: 0s, max: 3e-06, avg: 1.10156e-06s)
+g_loadSubGraph:		3.12477s	 (count: 97, min: 0.014965s, max: 0.060616, avg: 0.0322141s)
+z__g_loadSubGraph_read_begpos:		0.168555s	 (count: 97, min: 1.6e-05s, max: 0.009873, avg: 0.00173768s)
+z__g_loadSubGraph_read_csr:		2.9555s	 (count: 97, min: 0.014071s, max: 0.055143, avg: 0.0304691s)
+z__g_loadSubGraph_realloc_csr:		1.8e-05s	 (count: 97, min: 0s, max: 1e-06, avg: 1.85567e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		3.5e-05s	 (count: 256, min: 0s, max: 1e-06, avg: 1.36719e-07s)
+z_w_readWalksfromDisk:		0.001449s	 (count: 33, min: 1.5e-05s, max: 7.7e-05, avg: 4.39091e-05s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/soc-twitter-mpi-sws.txt
+
+
+Random walks:	Start 100000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		44
+[Timings]
+00_runtime:		3.34927 s
+0_startWalks:		0.028701 s
+1_chooseBlock:		6.3e-05s	 (count: 259, min: 0s, max: 1e-06, avg: 2.43243e-07s)
+2_findSubGraph:		3.23597s	 (count: 259, min: 0s, max: 0.07024, avg: 0.0124941s)
+3_getCurrentWalks:		0.002072s	 (count: 259, min: 0s, max: 9.3e-05, avg: 8e-06s)
+4_writeWalks2Disk:		0.001374s	 (count: 31, min: 1.7e-05s, max: 8.2e-05, avg: 4.43226e-05s)
+5_exec_updates:		0.110342s	 (count: 259, min: 0s, max: 0.002361, avg: 0.000426031s)
+6_updateWalkNum:		0.000318s	 (count: 259, min: 0s, max: 4e-06, avg: 1.2278e-06s)
+g_loadSubGraph:		3.22674s	 (count: 97, min: 0.014467s, max: 0.07024, avg: 0.0332654s)
+z__g_loadSubGraph_read_begpos:		0.301339s	 (count: 97, min: 8e-06s, max: 0.021243, avg: 0.00310659s)
+z__g_loadSubGraph_read_csr:		2.92475s	 (count: 97, min: 0.014404s, max: 0.054075, avg: 0.0301521s)
+z__g_loadSubGraph_realloc_csr:		1.5e-05s	 (count: 97, min: 0s, max: 1e-06, avg: 1.54639e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		5.5e-05s	 (count: 259, min: 0s, max: 1e-06, avg: 2.12355e-07s)
+z_w_readWalksfromDisk:		0.001338s	 (count: 31, min: 1.6e-05s, max: 9e-05, avg: 4.31613e-05s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/soc-twitter-mpi-sws.txt
+
+
+Random walks:	Start 100000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		44
+[Timings]
+00_runtime:		3.21884 s
+0_startWalks:		0.030547 s
+1_chooseBlock:		6.2e-05s	 (count: 249, min: 0s, max: 1e-06, avg: 2.48996e-07s)
+2_findSubGraph:		3.11827s	 (count: 249, min: 0s, max: 0.069495, avg: 0.0125232s)
+3_getCurrentWalks:		0.001883s	 (count: 249, min: 0s, max: 0.000134, avg: 7.56225e-06s)
+4_writeWalks2Disk:		0.000977s	 (count: 24, min: 1.8e-05s, max: 7.3e-05, avg: 4.07083e-05s)
+5_exec_updates:		0.097867s	 (count: 249, min: 0s, max: 0.00148, avg: 0.00039304s)
+6_updateWalkNum:		0.000304s	 (count: 249, min: 0s, max: 3e-06, avg: 1.22088e-06s)
+g_loadSubGraph:		3.10952s	 (count: 92, min: 0.014638s, max: 0.069493, avg: 0.0337991s)
+z__g_loadSubGraph_read_begpos:		0.297778s	 (count: 92, min: 3.3e-05s, max: 0.021193, avg: 0.00323672s)
+z__g_loadSubGraph_read_csr:		2.81109s	 (count: 92, min: 0.014476s, max: 0.053796, avg: 0.0305553s)
+z__g_loadSubGraph_realloc_csr:		1.3e-05s	 (count: 92, min: 0s, max: 1e-06, avg: 1.41304e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		4.6e-05s	 (count: 249, min: 0s, max: 1e-06, avg: 1.84739e-07s)
+z_w_readWalksfromDisk:		0.001063s	 (count: 24, min: 1.4e-05s, max: 0.000133, avg: 4.42917e-05s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/soc-twitter-mpi-sws.txt
+
+

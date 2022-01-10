@@ -1,0 +1,1137 @@
+Random walks:	Start 1000000 walks randomly ...
+[epoch_0]
+time = 0.595234
+blockcount = 1
+walksum = 1000000
+nwalks_219 = 79751
+subgraph_read_times = 1
+subgraph_read_bytes = 1630509368
+walk_read_times = 1
+walk_read_bytes = 524288
+walk_write_times = 64
+walk_write_bytes = 2097152
+[epoch_1]
+time = 5.06861
+blockcount = 34
+walksum = 997203
+nwalks_179 = 9931
+subgraph_read_times = 25
+subgraph_read_bytes = 14706173088
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_2]
+time = 9.6886
+blockcount = 67
+walksum = 990626
+nwalks_13 = 2178
+subgraph_read_times = 54
+subgraph_read_bytes = 30981374672
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_3]
+time = 15.974
+blockcount = 100
+walksum = 980218
+nwalks_218 = 9342
+subgraph_read_times = 87
+subgraph_read_bytes = 54399565680
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_4]
+time = 21.7519
+blockcount = 133
+walksum = 967513
+nwalks_155 = 9832
+subgraph_read_times = 120
+subgraph_read_bytes = 75207025496
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_5]
+time = 26.9413
+blockcount = 166
+walksum = 954956
+nwalks_137 = 8732
+subgraph_read_times = 153
+subgraph_read_bytes = 94092692552
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_6]
+time = 32.6642
+blockcount = 199
+walksum = 938929
+nwalks_127 = 8613
+subgraph_read_times = 185
+subgraph_read_bytes = 115497303424
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_7]
+time = 37.3328
+blockcount = 232
+walksum = 917531
+nwalks_52 = 5139
+subgraph_read_times = 211
+subgraph_read_bytes = 133455740016
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_8]
+time = 42.0881
+blockcount = 265
+walksum = 886436
+nwalks_112 = 9038
+subgraph_read_times = 238
+subgraph_read_bytes = 151206257608
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_9]
+time = 47.4829
+blockcount = 298
+walksum = 849479
+nwalks_216 = 9518
+subgraph_read_times = 267
+subgraph_read_bytes = 172014914976
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_10]
+time = 52.6541
+blockcount = 331
+walksum = 810477
+nwalks_87 = 8900
+subgraph_read_times = 300
+subgraph_read_bytes = 190365044176
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_11]
+time = 58.2659
+blockcount = 364
+walksum = 774649
+nwalks_72 = 8862
+subgraph_read_times = 332
+subgraph_read_bytes = 211668680960
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_12]
+time = 64.0453
+blockcount = 397
+walksum = 732013
+nwalks_172 = 7680
+subgraph_read_times = 365
+subgraph_read_bytes = 233390521904
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_13]
+time = 69.1965
+blockcount = 430
+walksum = 680262
+nwalks_188 = 7362
+subgraph_read_times = 397
+subgraph_read_bytes = 252791338840
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_14]
+time = 74.6332
+blockcount = 463
+walksum = 624222
+nwalks_142 = 6633
+subgraph_read_times = 428
+subgraph_read_bytes = 273178150408
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_15]
+time = 79.8376
+blockcount = 496
+walksum = 573404
+nwalks_217 = 6442
+subgraph_read_times = 459
+subgraph_read_bytes = 293020769528
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_16]
+time = 84.556
+blockcount = 529
+walksum = 522235
+nwalks_126 = 5896
+subgraph_read_times = 491
+subgraph_read_bytes = 309589210560
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_17]
+time = 89.7763
+blockcount = 562
+walksum = 468256
+nwalks_103 = 4771
+subgraph_read_times = 521
+subgraph_read_bytes = 329281803744
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_18]
+time = 94.0018
+blockcount = 595
+walksum = 426419
+nwalks_100 = 3844
+subgraph_read_times = 549
+subgraph_read_bytes = 344457510768
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_19]
+time = 98.5309
+blockcount = 628
+walksum = 383553
+nwalks_61 = 3055
+subgraph_read_times = 579
+subgraph_read_bytes = 360431348112
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_20]
+time = 102.418
+blockcount = 661
+walksum = 337911
+nwalks_172 = 3574
+subgraph_read_times = 608
+subgraph_read_bytes = 373749138624
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_21]
+time = 107.615
+blockcount = 694
+walksum = 289667
+nwalks_73 = 2640
+subgraph_read_times = 640
+subgraph_read_bytes = 392046594232
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_22]
+time = 112.284
+blockcount = 727
+walksum = 243914
+nwalks_186 = 2934
+subgraph_read_times = 671
+subgraph_read_bytes = 409647633736
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_23]
+time = 123.294
+blockcount = 760
+walksum = 209731
+nwalks_231 = 2215
+subgraph_read_times = 703
+subgraph_read_bytes = 442075408312
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_24]
+time = 131.051
+blockcount = 793
+walksum = 182875
+nwalks_216 = 2056
+subgraph_read_times = 735
+subgraph_read_bytes = 467786707336
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_25]
+time = 135.492
+blockcount = 826
+walksum = 154804
+nwalks_131 = 1617
+subgraph_read_times = 767
+subgraph_read_bytes = 483266726312
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_26]
+time = 139.863
+blockcount = 859
+walksum = 129590
+nwalks_121 = 1386
+subgraph_read_times = 796
+subgraph_read_bytes = 498737935032
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_27]
+time = 144.431
+blockcount = 892
+walksum = 106625
+nwalks_112 = 1240
+subgraph_read_times = 827
+subgraph_read_bytes = 514901587824
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_28]
+time = 148.725
+blockcount = 925
+walksum = 86817
+nwalks_204 = 1047
+subgraph_read_times = 858
+subgraph_read_bytes = 529814559840
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_29]
+time = 153.146
+blockcount = 958
+walksum = 68932
+nwalks_48 = 880
+subgraph_read_times = 887
+subgraph_read_bytes = 545613529168
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_30]
+time = 157.009
+blockcount = 991
+walksum = 53361
+nwalks_67 = 700
+subgraph_read_times = 917
+subgraph_read_bytes = 558496519856
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_31]
+time = 161.259
+blockcount = 1024
+walksum = 40702
+nwalks_150 = 572
+subgraph_read_times = 948
+subgraph_read_bytes = 572218526720
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_32]
+time = 167.457
+blockcount = 1057
+walksum = 31279
+nwalks_214 = 416
+subgraph_read_times = 978
+subgraph_read_bytes = 590078763480
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_33]
+time = 172.925
+blockcount = 1090
+walksum = 23684
+nwalks_11 = 235
+subgraph_read_times = 1009
+subgraph_read_bytes = 607620848952
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_34]
+time = 176.99
+blockcount = 1123
+walksum = 17804
+nwalks_114 = 243
+subgraph_read_times = 1039
+subgraph_read_bytes = 621196390024
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_35]
+time = 181.174
+blockcount = 1156
+walksum = 13013
+nwalks_25 = 110
+subgraph_read_times = 1069
+subgraph_read_bytes = 635763450976
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_36]
+time = 184.715
+blockcount = 1189
+walksum = 9539
+nwalks_51 = 142
+subgraph_read_times = 1099
+subgraph_read_bytes = 646660112976
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_37]
+time = 193.153
+blockcount = 1222
+walksum = 6786
+nwalks_37 = 96
+subgraph_read_times = 1129
+subgraph_read_bytes = 670135129568
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_38]
+time = 197.212
+blockcount = 1255
+walksum = 4827
+nwalks_50 = 48
+subgraph_read_times = 1159
+subgraph_read_bytes = 682994717600
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_39]
+time = 201.258
+blockcount = 1288
+walksum = 3330
+nwalks_179 = 50
+subgraph_read_times = 1191
+subgraph_read_bytes = 695131208120
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_40]
+time = 204.829
+blockcount = 1321
+walksum = 2236
+nwalks_216 = 41
+subgraph_read_times = 1220
+subgraph_read_bytes = 706673146680
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_41]
+time = 208.245
+blockcount = 1354
+walksum = 1422
+nwalks_204 = 24
+subgraph_read_times = 1248
+subgraph_read_bytes = 717016862768
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_42]
+time = 211.582
+blockcount = 1387
+walksum = 905
+nwalks_176 = 17
+subgraph_read_times = 1278
+subgraph_read_bytes = 726654149328
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_43]
+time = 215.565
+blockcount = 1420
+walksum = 556
+nwalks_110 = 10
+subgraph_read_times = 1308
+subgraph_read_bytes = 737610188736
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_44]
+time = 220.867
+blockcount = 1453
+walksum = 325
+nwalks_1 = 7
+subgraph_read_times = 1336
+subgraph_read_bytes = 751680102632
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_45]
+time = 225.107
+blockcount = 1486
+walksum = 177
+nwalks_192 = 4
+subgraph_read_times = 1367
+subgraph_read_bytes = 764012677000
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_46]
+time = 228.453
+blockcount = 1519
+walksum = 87
+nwalks_49 = 2
+subgraph_read_times = 1398
+subgraph_read_bytes = 773688745848
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_47]
+time = 231.783
+blockcount = 1552
+walksum = 34
+nwalks_91 = 1
+subgraph_read_times = 1428
+subgraph_read_bytes = 783042425816
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_48]
+time = 238.258
+blockcount = 1585
+walksum = 1
+nwalks_232 = 1
+subgraph_read_times = 1460
+subgraph_read_bytes = 800228570728
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+
+[summary]
+nepochs = 49
+subgraph read times = 1460
+subgraph read bytes = 800228570728
+walk read times = 5
+walk read bytes = 2621440
+walk write times = 80
+walk write bytes = 2621440
+
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		237
+[Timings]
+00_runtime:		238.258 s
+0_startWalks:		0.330209 s
+1_chooseBlock:		0.002108s	 (count: 1585, min: 0s, max: 1.5e-05, avg: 1.32997e-06s)
+2_findSubGraph:		237.173s	 (count: 1585, min: 0s, max: 0.694247, avg: 0.149636s)
+3_getCurrentWalks:		0.045126s	 (count: 1585, min: 0s, max: 0.000392, avg: 2.84707e-05s)
+4_writeWalks2Disk:		0.002882s	 (count: 80, min: 9e-06s, max: 0.000104, avg: 3.6025e-05s)
+5_exec_updates:		1.00934s	 (count: 1585, min: 1e-06s, max: 0.011633, avg: 0.000636807s)
+6_updateWalkNum:		0.017642s	 (count: 1585, min: 1e-06s, max: 4.6e-05, avg: 1.11306e-05s)
+g_loadSubGraph:		228.107s	 (count: 1460, min: 0.03211s, max: 0.693085, avg: 0.156238s)
+z__g_loadSubGraph_read_begpos:		116.794s	 (count: 1460, min: 0.00162s, max: 0.59796, avg: 0.0799961s)
+z__g_loadSubGraph_read_csr:		111.29s	 (count: 1460, min: 0.02973s, max: 0.10918, avg: 0.0762259s)
+z__g_loadSubGraph_realloc_csr:		0.001053s	 (count: 1460, min: 0s, max: 9e-06, avg: 7.21233e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.001088s	 (count: 1585, min: 0s, max: 3.1e-05, avg: 6.86435e-07s)
+z_w_readWalksfromDisk:		0.001256s	 (count: 5, min: 0.000193s, max: 0.000275, avg: 0.0002512s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/web-ClueWeb09.txt
+Random walks:	Start 1000000 walks randomly ...
+[epoch_0]
+time = 0.589769
+blockcount = 1
+walksum = 1000000
+nwalks_217 = 79521
+subgraph_read_times = 1
+subgraph_read_bytes = 1630307560
+walk_read_times = 1
+walk_read_bytes = 524288
+walk_write_times = 64
+walk_write_bytes = 2097152
+[epoch_1]
+time = 5.26514
+blockcount = 34
+walksum = 997284
+nwalks_212 = 10011
+subgraph_read_times = 25
+subgraph_read_bytes = 14784666296
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_2]
+time = 10.437
+blockcount = 67
+walksum = 988879
+nwalks_7 = 2592
+subgraph_read_times = 54
+subgraph_read_bytes = 33718768544
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_3]
+time = 16.0003
+blockcount = 100
+walksum = 978681
+nwalks_159 = 9371
+subgraph_read_times = 87
+subgraph_read_bytes = 54727627568
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_4]
+time = 21.7804
+blockcount = 133
+walksum = 965290
+nwalks_147 = 8582
+subgraph_read_times = 120
+subgraph_read_bytes = 77777800624
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_5]
+time = 26.7962
+blockcount = 166
+walksum = 953582
+nwalks_123 = 8575
+subgraph_read_times = 153
+subgraph_read_bytes = 96886682920
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_6]
+time = 31.8771
+blockcount = 199
+walksum = 937800
+nwalks_118 = 8303
+subgraph_read_times = 185
+subgraph_read_bytes = 116780419984
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_7]
+time = 36.1085
+blockcount = 232
+walksum = 912817
+nwalks_108 = 8597
+subgraph_read_times = 208
+subgraph_read_bytes = 134223526224
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_8]
+time = 41.3583
+blockcount = 265
+walksum = 881611
+nwalks_177 = 8828
+subgraph_read_times = 238
+subgraph_read_bytes = 154284224216
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_9]
+time = 46.3718
+blockcount = 298
+walksum = 844275
+nwalks_219 = 9747
+subgraph_read_times = 267
+subgraph_read_bytes = 173857812288
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_10]
+time = 51.8057
+blockcount = 331
+walksum = 806831
+nwalks_218 = 8689
+subgraph_read_times = 300
+subgraph_read_bytes = 194670751200
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_11]
+time = 56.6969
+blockcount = 364
+walksum = 774345
+nwalks_70 = 8700
+subgraph_read_times = 333
+subgraph_read_bytes = 213281727048
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_12]
+time = 62.08
+blockcount = 397
+walksum = 733512
+nwalks_168 = 7749
+subgraph_read_times = 365
+subgraph_read_bytes = 234972945112
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_13]
+time = 66.5957
+blockcount = 430
+walksum = 683163
+nwalks_13 = 3787
+subgraph_read_times = 394
+subgraph_read_bytes = 251852056992
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_14]
+time = 71.355
+blockcount = 463
+walksum = 633375
+nwalks_216 = 7282
+subgraph_read_times = 423
+subgraph_read_bytes = 270011007304
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_15]
+time = 76.0053
+blockcount = 496
+walksum = 579991
+nwalks_137 = 6699
+subgraph_read_times = 454
+subgraph_read_bytes = 286409975840
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_16]
+time = 81.4372
+blockcount = 529
+walksum = 522366
+nwalks_219 = 6396
+subgraph_read_times = 486
+subgraph_read_bytes = 307123292552
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_17]
+time = 85.7495
+blockcount = 562
+walksum = 467962
+nwalks_41 = 3252
+subgraph_read_times = 516
+subgraph_read_bytes = 322914100864
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_18]
+time = 90.3129
+blockcount = 595
+walksum = 424832
+nwalks_0 = 4119
+subgraph_read_times = 545
+subgraph_read_bytes = 340677241704
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_19]
+time = 94.7518
+blockcount = 628
+walksum = 380083
+nwalks_152 = 3758
+subgraph_read_times = 575
+subgraph_read_bytes = 356697136728
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_20]
+time = 99.4969
+blockcount = 661
+walksum = 332629
+nwalks_168 = 3529
+subgraph_read_times = 607
+subgraph_read_bytes = 373632266368
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_21]
+time = 104.062
+blockcount = 694
+walksum = 287167
+nwalks_80 = 3364
+subgraph_read_times = 639
+subgraph_read_bytes = 390105831880
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_22]
+time = 109.645
+blockcount = 727
+walksum = 241415
+nwalks_221 = 2350
+subgraph_read_times = 671
+subgraph_read_bytes = 410584861152
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_23]
+time = 118.843
+blockcount = 760
+walksum = 206123
+nwalks_136 = 2359
+subgraph_read_times = 703
+subgraph_read_bytes = 440548949680
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_24]
+time = 126.842
+blockcount = 793
+walksum = 179441
+nwalks_216 = 1964
+subgraph_read_times = 734
+subgraph_read_bytes = 467093567336
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_25]
+time = 131.17
+blockcount = 826
+walksum = 152951
+nwalks_127 = 1517
+subgraph_read_times = 764
+subgraph_read_bytes = 482106408416
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_26]
+time = 135.077
+blockcount = 859
+walksum = 128035
+nwalks_106 = 1305
+subgraph_read_times = 792
+subgraph_read_bytes = 495982663864
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_27]
+time = 139.488
+blockcount = 892
+walksum = 105431
+nwalks_29 = 1155
+subgraph_read_times = 821
+subgraph_read_bytes = 511628278424
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_28]
+time = 143.746
+blockcount = 925
+walksum = 85110
+nwalks_218 = 1092
+subgraph_read_times = 852
+subgraph_read_bytes = 526520476968
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_29]
+time = 148.184
+blockcount = 958
+walksum = 67528
+nwalks_48 = 895
+subgraph_read_times = 885
+subgraph_read_bytes = 541928113592
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_30]
+time = 152.706
+blockcount = 991
+walksum = 52277
+nwalks_216 = 796
+subgraph_read_times = 917
+subgraph_read_bytes = 558292009168
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_31]
+time = 157.08
+blockcount = 1024
+walksum = 39902
+nwalks_217 = 553
+subgraph_read_times = 949
+subgraph_read_bytes = 573714573472
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_32]
+time = 161.497
+blockcount = 1057
+walksum = 29771
+nwalks_129 = 384
+subgraph_read_times = 981
+subgraph_read_bytes = 589216945992
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_33]
+time = 166.636
+blockcount = 1090
+walksum = 22665
+nwalks_177 = 293
+subgraph_read_times = 1011
+subgraph_read_bytes = 606429844888
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_34]
+time = 170.016
+blockcount = 1123
+walksum = 16999
+nwalks_211 = 226
+subgraph_read_times = 1037
+subgraph_read_bytes = 617451115264
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_35]
+time = 173.828
+blockcount = 1156
+walksum = 12604
+nwalks_164 = 174
+subgraph_read_times = 1068
+subgraph_read_bytes = 629945873592
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_36]
+time = 178.337
+blockcount = 1189
+walksum = 9377
+nwalks_93 = 123
+subgraph_read_times = 1097
+subgraph_read_bytes = 643176732400
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_37]
+time = 186.443
+blockcount = 1222
+walksum = 6821
+nwalks_40 = 92
+subgraph_read_times = 1126
+subgraph_read_bytes = 665323019536
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_38]
+time = 191.111
+blockcount = 1255
+walksum = 4805
+nwalks_60 = 69
+subgraph_read_times = 1156
+subgraph_read_bytes = 679875402384
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_39]
+time = 194.558
+blockcount = 1288
+walksum = 3237
+nwalks_136 = 51
+subgraph_read_times = 1186
+subgraph_read_bytes = 690146644008
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_40]
+time = 198.187
+blockcount = 1321
+walksum = 2108
+nwalks_148 = 36
+subgraph_read_times = 1217
+subgraph_read_bytes = 702404671152
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_41]
+time = 201.278
+blockcount = 1354
+walksum = 1323
+nwalks_130 = 23
+subgraph_read_times = 1245
+subgraph_read_bytes = 711454663456
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_42]
+time = 204.796
+blockcount = 1387
+walksum = 823
+nwalks_128 = 17
+subgraph_read_times = 1277
+subgraph_read_bytes = 721737554272
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_43]
+time = 208.137
+blockcount = 1420
+walksum = 463
+nwalks_176 = 11
+subgraph_read_times = 1305
+subgraph_read_bytes = 731956816144
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_44]
+time = 211.395
+blockcount = 1453
+walksum = 248
+nwalks_163 = 6
+subgraph_read_times = 1336
+subgraph_read_bytes = 741564130840
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_45]
+time = 216.684
+blockcount = 1486
+walksum = 125
+nwalks_3 = 1
+subgraph_read_times = 1368
+subgraph_read_bytes = 756852966400
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_46]
+time = 220.833
+blockcount = 1519
+walksum = 58
+nwalks_178 = 2
+subgraph_read_times = 1398
+subgraph_read_bytes = 767511927824
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+[epoch_47]
+time = 225.292
+blockcount = 1552
+walksum = 17
+nwalks_152 = 1
+subgraph_read_times = 1429
+subgraph_read_bytes = 777511393688
+walk_read_times = 5
+walk_read_bytes = 2621440
+walk_write_times = 80
+walk_write_bytes = 2621440
+
+[summary]
+nepochs = 48
+subgraph read times = 1441
+subgraph read bytes = 786796026544
+walk read times = 5
+walk read bytes = 2621440
+walk write times = 80
+walk write bytes = 2621440
+
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		237
+[Timings]
+00_runtime:		229.743 s
+0_startWalks:		0.32431 s
+1_chooseBlock:		0.002025s	 (count: 1568, min: 0s, max: 1.1e-05, avg: 1.29145e-06s)
+2_findSubGraph:		228.631s	 (count: 1568, min: 0s, max: 0.918269, avg: 0.145811s)
+3_getCurrentWalks:		0.047504s	 (count: 1568, min: 0s, max: 0.000404, avg: 3.02959e-05s)
+4_writeWalks2Disk:		0.002623s	 (count: 80, min: 2.1e-05s, max: 6.3e-05, avg: 3.27875e-05s)
+5_exec_updates:		1.03358s	 (count: 1568, min: 1e-06s, max: 0.009687, avg: 0.00065917s)
+6_updateWalkNum:		0.017688s	 (count: 1568, min: 1e-06s, max: 4.7e-05, avg: 1.12806e-05s)
+g_loadSubGraph:		221.079s	 (count: 1441, min: 0.0308s, max: 0.915831, avg: 0.15342s)
+z__g_loadSubGraph_read_begpos:		109.275s	 (count: 1441, min: 0.001649s, max: 0.765675, avg: 0.0758329s)
+z__g_loadSubGraph_read_csr:		111.784s	 (count: 1441, min: 0.028118s, max: 0.158892, avg: 0.0775738s)
+z__g_loadSubGraph_realloc_csr:		0.001143s	 (count: 1441, min: 0s, max: 2e-06, avg: 7.93199e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.001128s	 (count: 1568, min: 0s, max: 3.3e-05, avg: 7.19388e-07s)
+z_w_readWalksfromDisk:		0.001279s	 (count: 5, min: 0.000194s, max: 0.00028, avg: 0.0002558s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/web-ClueWeb09.txt

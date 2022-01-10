@@ -1,0 +1,33 @@
+Random walks:	Start 400000000 walks randomly ...
+
+subgraph read times = 24
+subgraph read bytes = 26186076440
+walk read times = 72
+walk read bytes = 15768584192
+walk write times = 481084
+walk write bytes = 15763898368
+
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		14
+[Timings]
+00_runtime:		66.2015 s
+0_startWalks:		104.47 s
+1_chooseBlock:		7.6e-05s	 (count: 79, min: 0s, max: 2e-06, avg: 9.62025e-07s)
+2_findSubGraph:		6.94416s	 (count: 79, min: 0s, max: 0.430282, avg: 0.0879007s)
+3_getCurrentWalks:		5.59647s	 (count: 79, min: 3e-06s, max: 0.202443, avg: 0.0708414s)
+4_writeWalks2Disk:		13.5836s	 (count: 481191, min: 0s, max: 0.004405, avg: 2.82366e-05s)
+5_exec_updates:		53.1277s	 (count: 79, min: 4.2e-05s, max: 2.21487, avg: 0.672502s)
+6_updateWalkNum:		0.531724s	 (count: 79, min: 1e-06s, max: 0.017593, avg: 0.00673068s)
+g_loadSubGraph:		6.92933s	 (count: 24, min: 0.13899s, max: 0.430281, avg: 0.288722s)
+z__g_loadSubGraph_read_begpos:		0.43292s	 (count: 24, min: 0.004933s, max: 0.032481, avg: 0.0180383s)
+z__g_loadSubGraph_read_csr:		6.49597s	 (count: 24, min: 0.120494s, max: 0.406794, avg: 0.270665s)
+z__g_loadSubGraph_realloc_csr:		1.4e-05s	 (count: 24, min: 0s, max: 1e-06, avg: 5.83333e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.531453s	 (count: 79, min: 0s, max: 0.017587, avg: 0.00672725s)
+z_w_readWalksfromDisk:		5.582s	 (count: 72, min: 7.7e-05s, max: 0.202246, avg: 0.0775278s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/soc-friendster.txt

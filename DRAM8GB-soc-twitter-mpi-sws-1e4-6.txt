@@ -1,0 +1,110 @@
+Random walks:	Start 10000 walks randomly ...
+[epoch_0]
+time = 0.041073
+blockcount = 1
+walksum = 10000
+nwalks_85 = 663
+subgraph_read_times = 1
+subgraph_read_bytes = 88271704
+walk_read_times = 0
+walk_read_bytes = 0
+walk_write_times = 0
+walk_write_bytes = 0
+[epoch_1]
+time = 1.54036
+blockcount = 66
+walksum = 9695
+nwalks_18 = 273
+subgraph_read_times = 53
+subgraph_read_bytes = 3834134652
+walk_read_times = 0
+walk_read_bytes = 0
+walk_write_times = 0
+walk_write_bytes = 0
+[epoch_2]
+time = 2.27543
+blockcount = 131
+walksum = 8270
+nwalks_30 = 226
+subgraph_read_times = 83
+subgraph_read_bytes = 5896661104
+walk_read_times = 0
+walk_read_bytes = 0
+walk_write_times = 0
+walk_write_bytes = 0
+[epoch_3]
+time = 2.52792
+blockcount = 196
+walksum = 5831
+nwalks_27 = 153
+subgraph_read_times = 99
+subgraph_read_bytes = 7055133028
+walk_read_times = 0
+walk_read_bytes = 0
+walk_write_times = 0
+walk_write_bytes = 0
+[epoch_4]
+time = 2.69707
+blockcount = 261
+walksum = 2699
+nwalks_36 = 82
+subgraph_read_times = 116
+subgraph_read_bytes = 8253050860
+walk_read_times = 0
+walk_read_bytes = 0
+walk_write_times = 0
+walk_write_bytes = 0
+[epoch_5]
+time = 2.89194
+blockcount = 326
+walksum = 801
+nwalks_12 = 28
+subgraph_read_times = 137
+subgraph_read_bytes = 9724730520
+walk_read_times = 0
+walk_read_bytes = 0
+walk_write_times = 0
+walk_write_bytes = 0
+[epoch_6]
+time = 3.03929
+blockcount = 391
+walksum = 118
+nwalks_69 = 6
+subgraph_read_times = 154
+subgraph_read_bytes = 10879758068
+walk_read_times = 0
+walk_read_bytes = 0
+walk_write_times = 0
+walk_write_bytes = 0
+
+[summary]
+nepochs = 7
+subgraph read times = 166
+subgraph read bytes = 11695973964
+walk read times = 0
+walk read bytes = 0
+walk write times = 0
+walk write bytes = 0
+
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		88
+[Timings]
+00_runtime:		3.14333 s
+0_startWalks:		0.015089 s
+1_chooseBlock:		0.000234s	 (count: 445, min: 0s, max: 2e-06, avg: 5.25843e-07s)
+2_findSubGraph:		3.11868s	 (count: 445, min: 0s, max: 0.041037, avg: 0.00700827s)
+3_getCurrentWalks:		0.000993s	 (count: 445, min: 0s, max: 1.3e-05, avg: 2.23146e-06s)
+5_exec_updates:		0.020639s	 (count: 445, min: 0s, max: 0.000681, avg: 4.63798e-05s)
+6_updateWalkNum:		0.001391s	 (count: 445, min: 0s, max: 1.8e-05, avg: 3.12584e-06s)
+g_loadSubGraph:		3.11185s	 (count: 166, min: 0.007403s, max: 0.041035, avg: 0.0187461s)
+z__g_loadSubGraph_read_begpos:		0.254944s	 (count: 166, min: 8e-06s, max: 0.010504, avg: 0.00153581s)
+z__g_loadSubGraph_read_csr:		2.85545s	 (count: 166, min: 0.00736s, max: 0.030715, avg: 0.0172015s)
+z__g_loadSubGraph_realloc_csr:		4.7e-05s	 (count: 166, min: 0s, max: 1e-06, avg: 2.83133e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.000119s	 (count: 445, min: 0s, max: 1.6e-05, avg: 2.67416e-07s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/soc-twitter-mpi-sws.txt

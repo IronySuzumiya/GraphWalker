@@ -1,0 +1,82 @@
+bin/apps/rawrandomwalks file Dataset/soc-twitter-mpi-sws.txt N 41652231 R 100000000 L 8
+Random walks:	Start 100000000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		6
+[Timings]
+00_runtime:		22.221 s
+0_startWalks:		18.9221 s
+1_chooseBlock:		2.6e-05s	 (count: 43, min: 0s, max: 1e-06, avg: 6.04651e-07s)
+2_findSubGraph:		4.08227s	 (count: 43, min: 0s, max: 0.405595, avg: 0.0949366s)
+3_getCurrentWalks:		1.61143s	 (count: 43, min: 1e-06s, max: 0.11539, avg: 0.037475s)
+4_writeWalks2Disk:		3.7519s	 (count: 145263, min: 0s, max: 0.003915, avg: 2.58283e-05s)
+5_exec_updates:		16.3874s	 (count: 43, min: 6e-06s, max: 1.44825, avg: 0.381101s)
+6_updateWalkNum:		0.1395s	 (count: 43, min: 0s, max: 0.01209, avg: 0.00324419s)
+g_loadSubGraph:		4.05829s	 (count: 20, min: 0.090691s, max: 0.405595, avg: 0.202914s)
+z__g_loadSubGraph_read_begpos:		0.336025s	 (count: 20, min: 0.001789s, max: 0.049924, avg: 0.0168012s)
+z__g_loadSubGraph_read_csr:		3.72202s	 (count: 20, min: 0.055723s, max: 0.377178, avg: 0.186101s)
+z__g_loadSubGraph_realloc_csr:		8e-06s	 (count: 20, min: 0s, max: 1e-06, avg: 4e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.139454s	 (count: 43, min: 0s, max: 0.012088, avg: 0.00324312s)
+z_w_readWalksfromDisk:		1.60891s	 (count: 35, min: 7.6e-05s, max: 0.115325, avg: 0.045969s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/soc-twitter-mpi-sws.txt
+
+
+Random walks:	Start 100000000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		6
+[Timings]
+00_runtime:		22.2471 s
+0_startWalks:		18.7409 s
+1_chooseBlock:		2.7e-05s	 (count: 42, min: 0s, max: 1e-06, avg: 6.42857e-07s)
+2_findSubGraph:		4.0288s	 (count: 42, min: 0s, max: 0.418, avg: 0.0959238s)
+3_getCurrentWalks:		1.63491s	 (count: 42, min: 1e-06s, max: 0.120011, avg: 0.0389264s)
+4_writeWalks2Disk:		3.72672s	 (count: 145257, min: 0s, max: 0.00233, avg: 2.5656e-05s)
+5_exec_updates:		16.4378s	 (count: 42, min: 8e-06s, max: 1.5007, avg: 0.391376s)
+6_updateWalkNum:		0.145166s	 (count: 42, min: 0s, max: 0.012263, avg: 0.00345633s)
+g_loadSubGraph:		4.01252s	 (count: 20, min: 0.08717s, max: 0.418, avg: 0.200626s)
+z__g_loadSubGraph_read_begpos:		0.310983s	 (count: 20, min: 0.001639s, max: 0.047587, avg: 0.0155492s)
+z__g_loadSubGraph_read_csr:		3.70128s	 (count: 20, min: 0.05529s, max: 0.378606, avg: 0.185064s)
+z__g_loadSubGraph_realloc_csr:		8e-06s	 (count: 20, min: 0s, max: 1e-06, avg: 4e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.145105s	 (count: 42, min: 0s, max: 0.012261, avg: 0.00345488s)
+z_w_readWalksfromDisk:		1.63223s	 (count: 35, min: 0.000154s, max: 0.119941, avg: 0.0466351s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/soc-twitter-mpi-sws.txt
+
+
+Random walks:	Start 100000000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		6
+[Timings]
+00_runtime:		22.1074 s
+0_startWalks:		18.9349 s
+1_chooseBlock:		2.4e-05s	 (count: 42, min: 0s, max: 1e-06, avg: 5.71429e-07s)
+2_findSubGraph:		3.95224s	 (count: 42, min: 0s, max: 0.421376, avg: 0.0941009s)
+3_getCurrentWalks:		1.6171s	 (count: 42, min: 1e-06s, max: 0.115624, avg: 0.0385024s)
+4_writeWalks2Disk:		3.79166s	 (count: 145255, min: 0s, max: 0.004061, avg: 2.61034e-05s)
+5_exec_updates:		16.4001s	 (count: 42, min: 5e-06s, max: 1.45893, avg: 0.390477s)
+6_updateWalkNum:		0.137609s	 (count: 42, min: 0s, max: 0.012001, avg: 0.0032764s)
+g_loadSubGraph:		3.9256s	 (count: 20, min: 0.086372s, max: 0.421375, avg: 0.19628s)
+z__g_loadSubGraph_read_begpos:		0.379564s	 (count: 20, min: 0.001918s, max: 0.053969, avg: 0.0189782s)
+z__g_loadSubGraph_read_csr:		3.54578s	 (count: 20, min: 0.055256s, max: 0.378368, avg: 0.177289s)
+z__g_loadSubGraph_realloc_csr:		9e-06s	 (count: 20, min: 0s, max: 1e-06, avg: 4.5e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.137557s	 (count: 42, min: 0s, max: 0.011998, avg: 0.00327517s)
+z_w_readWalksfromDisk:		1.6144s	 (count: 34, min: 0.000152s, max: 0.115541, avg: 0.0474825s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/soc-twitter-mpi-sws.txt
+
+

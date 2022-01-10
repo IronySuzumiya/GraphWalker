@@ -76,6 +76,12 @@ public:
             if( v < blocks[p+1] )
                 return p;
         }
+	std::cout << "v = " << v << std::endl;
+	std::cout << "0";
+	for(unsigned p = 0; p < nblocks; ++p) {
+		std::cout << ", " << blocks[p+1];
+	}
+	std::cout << std::endl;
         // assert(false);
         return nblocks;
     }

@@ -1,0 +1,82 @@
+bin/apps/rawrandomwalks file Dataset/web-ClueWeb09.txt N 4780950910 R 100000000 L 16
+Random walks:	Start 100000000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		60
+[Timings]
+00_runtime:		201.665 s
+0_startWalks:		21.2261 s
+1_chooseBlock:		0.000501s	 (count: 872, min: 0s, max: 1e-06, avg: 5.74541e-07s)
+2_findSubGraph:		157.58s	 (count: 872, min: 0s, max: 2.44055, avg: 0.180711s)
+3_getCurrentWalks:		4.77417s	 (count: 872, min: 0s, max: 0.029977, avg: 0.00547496s)
+4_writeWalks2Disk:		9.46862s	 (count: 374148, min: 0s, max: 0.00473, avg: 2.53072e-05s)
+5_exec_updates:		39.0585s	 (count: 872, min: 1e-06s, max: 0.176144, avg: 0.0447919s)
+6_updateWalkNum:		0.239322s	 (count: 872, min: 0s, max: 0.002226, avg: 0.000274452s)
+g_loadSubGraph:		152.14s	 (count: 829, min: 0.07398s, max: 2.43682, avg: 0.183522s)
+z__g_loadSubGraph_read_begpos:		77.6665s	 (count: 829, min: 0.013321s, max: 2.26582, avg: 0.093687s)
+z__g_loadSubGraph_read_csr:		74.4618s	 (count: 829, min: 0.056511s, max: 0.448536, avg: 0.0898213s)
+z__g_loadSubGraph_realloc_csr:		0.000441s	 (count: 829, min: 0s, max: 4e-06, avg: 5.31966e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.237301s	 (count: 872, min: 0s, max: 0.002223, avg: 0.000272134s)
+z_w_readWalksfromDisk:		4.74264s	 (count: 484, min: 7.5e-05s, max: 0.029905, avg: 0.00979884s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/web-ClueWeb09.txt
+
+
+Random walks:	Start 100000000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		60
+[Timings]
+00_runtime:		201.206 s
+0_startWalks:		21.4514 s
+1_chooseBlock:		0.000491s	 (count: 854, min: 0s, max: 1e-06, avg: 5.74941e-07s)
+2_findSubGraph:		157.406s	 (count: 854, min: 0s, max: 2.44153, avg: 0.184316s)
+3_getCurrentWalks:		4.53969s	 (count: 854, min: 0s, max: 0.031435, avg: 0.00531579s)
+4_writeWalks2Disk:		9.52207s	 (count: 374024, min: 0s, max: 0.004877, avg: 2.54584e-05s)
+5_exec_updates:		39.0261s	 (count: 854, min: 0s, max: 0.19183, avg: 0.045698s)
+6_updateWalkNum:		0.226006s	 (count: 854, min: 0s, max: 0.002058, avg: 0.000264644s)
+g_loadSubGraph:		151.929s	 (count: 807, min: 0.07277s, max: 2.43825, avg: 0.188264s)
+z__g_loadSubGraph_read_begpos:		79.2218s	 (count: 807, min: 0.013142s, max: 2.2676, avg: 0.0981683s)
+z__g_loadSubGraph_read_csr:		72.696s	 (count: 807, min: 0.0565s, max: 0.340571, avg: 0.0900818s)
+z__g_loadSubGraph_realloc_csr:		0.000465s	 (count: 807, min: 0s, max: 5e-06, avg: 5.76208e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.224044s	 (count: 854, min: 0s, max: 0.002056, avg: 0.000262347s)
+z_w_readWalksfromDisk:		4.50724s	 (count: 480, min: 5.1e-05s, max: 0.031368, avg: 0.00939008s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/web-ClueWeb09.txt
+
+
+Random walks:	Start 100000000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		60
+[Timings]
+00_runtime:		198.538 s
+0_startWalks:		21.3441 s
+1_chooseBlock:		0.000542s	 (count: 830, min: 0s, max: 2e-06, avg: 6.53012e-07s)
+2_findSubGraph:		154.628s	 (count: 830, min: 0s, max: 2.38995, avg: 0.186299s)
+3_getCurrentWalks:		4.65236s	 (count: 830, min: 0s, max: 0.03284, avg: 0.00560525s)
+4_writeWalks2Disk:		9.44169s	 (count: 374140, min: 0s, max: 0.005267, avg: 2.52359e-05s)
+5_exec_updates:		39.022s	 (count: 830, min: 2e-06s, max: 0.183996, avg: 0.0470144s)
+6_updateWalkNum:		0.228861s	 (count: 830, min: 0s, max: 0.001699, avg: 0.000275736s)
+g_loadSubGraph:		149.57s	 (count: 783, min: 0.073396s, max: 2.38393, avg: 0.191022s)
+z__g_loadSubGraph_read_begpos:		74.1419s	 (count: 783, min: 0.013555s, max: 2.21296, avg: 0.0946895s)
+z__g_loadSubGraph_read_csr:		75.4177s	 (count: 783, min: 0.056289s, max: 0.412191, avg: 0.0963189s)
+z__g_loadSubGraph_realloc_csr:		0.000416s	 (count: 783, min: 0s, max: 1e-06, avg: 5.3129e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.226991s	 (count: 830, min: 0s, max: 0.001697, avg: 0.000273483s)
+z_w_readWalksfromDisk:		4.62212s	 (count: 472, min: 0.000106s, max: 0.032765, avg: 0.00979262s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/web-ClueWeb09.txt
+
+

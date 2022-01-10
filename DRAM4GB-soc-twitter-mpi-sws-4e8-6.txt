@@ -1,0 +1,25 @@
+Random walks:	Start 400000000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		6
+[Timings]
+00_runtime:		59.022 s
+0_startWalks:		97.6265 s
+1_chooseBlock:		3.4e-05s	 (count: 32, min: 0s, max: 2e-06, avg: 1.0625e-06s)
+2_findSubGraph:		5.45538s	 (count: 32, min: 0s, max: 0.447464, avg: 0.170481s)
+3_getCurrentWalks:		5.26689s	 (count: 32, min: 8.6e-05s, max: 0.634312, avg: 0.16459s)
+4_writeWalks2Disk:		12.3297s	 (count: 440537, min: 0s, max: 0.004745, avg: 2.79878e-05s)
+5_exec_updates:		47.8853s	 (count: 32, min: 0.000745s, max: 6.31643, avg: 1.49642s)
+6_updateWalkNum:		0.413934s	 (count: 32, min: 1e-06s, max: 0.047702, avg: 0.0129354s)
+g_loadSubGraph:		5.41728s	 (count: 27, min: 0.092357s, max: 0.447464, avg: 0.20064s)
+z__g_loadSubGraph_read_begpos:		0.498224s	 (count: 27, min: 0.001821s, max: 0.061881, avg: 0.0184527s)
+z__g_loadSubGraph_read_csr:		4.91866s	 (count: 27, min: 0.058304s, max: 0.437997, avg: 0.182173s)
+z__g_loadSubGraph_realloc_csr:		1.2e-05s	 (count: 27, min: 0s, max: 1e-06, avg: 4.44444e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.413839s	 (count: 32, min: 0s, max: 0.047698, avg: 0.0129325s)
+z_w_readWalksfromDisk:		5.26183s	 (count: 30, min: 8e-05s, max: 0.634152, avg: 0.175394s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/soc-twitter-mpi-sws.txt

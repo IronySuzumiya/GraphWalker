@@ -1,7 +1,7 @@
 Gs=('soc-twitter-mpi-sws' 'soc-friendster') #web-ClueWeb09
 Ns=('41652231' '65608366') #4780950910
-R=10000000
-Rine='1e7'
+R=100000000
+Rine='1e8'
 Ls=('4' '8' '16' '32' '64' '128' '256' '512' '1024')
 
 for gindex in $(seq 1 ${#Gs[@]}); do

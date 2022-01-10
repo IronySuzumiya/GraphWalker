@@ -1,0 +1,82 @@
+bin/apps/rawrandomwalks file Dataset/soc-friendster.txt N 65608366 R 10000000 L 16
+Random walks:	Start 10000000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		27
+[Timings]
+00_runtime:		27.0912 s
+0_startWalks:		2.30438 s
+1_chooseBlock:		0.000167s	 (count: 350, min: 0s, max: 1e-06, avg: 4.77143e-07s)
+2_findSubGraph:		20s	 (count: 350, min: 0s, max: 0.205192, avg: 0.0571429s)
+3_getCurrentWalks:		0.290448s	 (count: 350, min: 0s, max: 0.007401, avg: 0.000829851s)
+4_writeWalks2Disk:		0.945992s	 (count: 31880, min: 0s, max: 0.001996, avg: 2.96727e-05s)
+5_exec_updates:		6.79703s	 (count: 350, min: 1e-06s, max: 0.04762, avg: 0.0194201s)
+6_updateWalkNum:		0.001535s	 (count: 350, min: 0s, max: 0.000183, avg: 4.38571e-06s)
+g_loadSubGraph:		19.9782s	 (count: 261, min: 0.058633s, max: 0.20519, avg: 0.0765447s)
+z__g_loadSubGraph_read_begpos:		0.903089s	 (count: 261, min: 0.001118s, max: 0.022123, avg: 0.00346011s)
+z__g_loadSubGraph_read_csr:		19.0737s	 (count: 261, min: 0.056141s, max: 0.194942, avg: 0.0730794s)
+z__g_loadSubGraph_realloc_csr:		7.2e-05s	 (count: 261, min: 0s, max: 1e-06, avg: 2.75862e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.001071s	 (count: 350, min: 0s, max: 0.000181, avg: 3.06e-06s)
+z_w_readWalksfromDisk:		0.278625s	 (count: 240, min: 4.2e-05s, max: 0.007338, avg: 0.00116094s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/soc-friendster.txt
+
+
+Random walks:	Start 10000000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		27
+[Timings]
+00_runtime:		27.0255 s
+0_startWalks:		2.29424 s
+1_chooseBlock:		0.000163s	 (count: 350, min: 0s, max: 1e-06, avg: 4.65714e-07s)
+2_findSubGraph:		19.937s	 (count: 350, min: 0s, max: 0.213775, avg: 0.0569628s)
+3_getCurrentWalks:		0.291063s	 (count: 350, min: 0s, max: 0.00704, avg: 0.000831609s)
+4_writeWalks2Disk:		1.00199s	 (count: 31858, min: 0s, max: 0.004106, avg: 3.14518e-05s)
+5_exec_updates:		6.79413s	 (count: 350, min: 1e-06s, max: 0.050539, avg: 0.0194118s)
+6_updateWalkNum:		0.001337s	 (count: 350, min: 0s, max: 0.000178, avg: 3.82e-06s)
+g_loadSubGraph:		19.9236s	 (count: 261, min: 0.058844s, max: 0.213774, avg: 0.0763356s)
+z__g_loadSubGraph_read_begpos:		0.868812s	 (count: 261, min: 0.001169s, max: 0.016696, avg: 0.00332878s)
+z__g_loadSubGraph_read_csr:		19.0535s	 (count: 261, min: 0.056931s, max: 0.199311, avg: 0.0730021s)
+z__g_loadSubGraph_realloc_csr:		7e-05s	 (count: 261, min: 0s, max: 1e-06, avg: 2.68199e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.000828s	 (count: 350, min: 0s, max: 0.000176, avg: 2.36571e-06s)
+z_w_readWalksfromDisk:		0.278484s	 (count: 242, min: 0.000115s, max: 0.006994, avg: 0.00115076s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/soc-friendster.txt
+
+
+Random walks:	Start 10000000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		27
+[Timings]
+00_runtime:		27.0944 s
+0_startWalks:		2.29801 s
+1_chooseBlock:		0.000177s	 (count: 351, min: 0s, max: 1e-06, avg: 5.04274e-07s)
+2_findSubGraph:		20.0094s	 (count: 351, min: 0s, max: 0.201722, avg: 0.0570068s)
+3_getCurrentWalks:		0.299633s	 (count: 351, min: 0s, max: 0.007383, avg: 0.000853655s)
+4_writeWalks2Disk:		0.927848s	 (count: 31914, min: 0s, max: 0.00059, avg: 2.90734e-05s)
+5_exec_updates:		6.78132s	 (count: 351, min: 1e-06s, max: 0.047713, avg: 0.01932s)
+6_updateWalkNum:		0.001566s	 (count: 351, min: 0s, max: 0.000179, avg: 4.46154e-06s)
+g_loadSubGraph:		19.9886s	 (count: 261, min: 0.059069s, max: 0.20172, avg: 0.0765847s)
+z__g_loadSubGraph_read_begpos:		0.91016s	 (count: 261, min: 0.001159s, max: 0.018099, avg: 0.0034872s)
+z__g_loadSubGraph_read_csr:		19.0771s	 (count: 261, min: 0.057479s, max: 0.189027, avg: 0.0730923s)
+z__g_loadSubGraph_realloc_csr:		8.4e-05s	 (count: 261, min: 0s, max: 1e-06, avg: 3.21839e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.001058s	 (count: 351, min: 0s, max: 0.000177, avg: 3.01425e-06s)
+z_w_readWalksfromDisk:		0.286661s	 (count: 241, min: 9.6e-05s, max: 0.007335, avg: 0.00118946s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/soc-friendster.txt
+
+

@@ -1,0 +1,76 @@
+bin/apps/rawrandomwalks file Dataset/soc-friendster.txt N 65608366 R 10000 L 6
+Random walks:	Start 10000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		216
+[Timings]
+00_runtime:		9.66086 s
+0_startWalks:		0.013405 s
+1_chooseBlock:		0.000492s	 (count: 1047, min: 0s, max: 1e-06, avg: 4.69914e-07s)
+2_findSubGraph:		9.63348s	 (count: 1047, min: 0s, max: 0.031578, avg: 0.00920103s)
+3_getCurrentWalks:		0.00105s	 (count: 1047, min: 0s, max: 1.6e-05, avg: 1.00287e-06s)
+5_exec_updates:		0.021499s	 (count: 1047, min: 0s, max: 5.7e-05, avg: 2.05339e-05s)
+6_updateWalkNum:		0.002685s	 (count: 1047, min: 0s, max: 7e-06, avg: 2.56447e-06s)
+g_loadSubGraph:		9.62885s	 (count: 782, min: 0.002946s, max: 0.031578, avg: 0.0123131s)
+z__g_loadSubGraph_read_begpos:		0.264698s	 (count: 782, min: 0.000183s, max: 0.001548, avg: 0.000338488s)
+z__g_loadSubGraph_read_csr:		9.36139s	 (count: 782, min: 0.002513s, max: 0.030023, avg: 0.0119711s)
+z__g_loadSubGraph_realloc_csr:		7.3e-05s	 (count: 782, min: 0s, max: 1e-06, avg: 9.33504e-08s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.000129s	 (count: 1047, min: 0s, max: 3e-06, avg: 1.23209e-07s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/soc-friendster.txt
+
+
+Random walks:	Start 10000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		216
+[Timings]
+00_runtime:		9.88259 s
+0_startWalks:		0.01511 s
+1_chooseBlock:		0.00051s	 (count: 1054, min: 0s, max: 4e-06, avg: 4.83871e-07s)
+2_findSubGraph:		9.85484s	 (count: 1054, min: 0s, max: 0.034688, avg: 0.00934994s)
+3_getCurrentWalks:		0.001062s	 (count: 1054, min: 0s, max: 7e-06, avg: 1.00759e-06s)
+5_exec_updates:		0.021475s	 (count: 1054, min: 0s, max: 8.7e-05, avg: 2.03748e-05s)
+6_updateWalkNum:		0.002853s	 (count: 1054, min: 0s, max: 8e-06, avg: 2.70683e-06s)
+g_loadSubGraph:		9.8511s	 (count: 794, min: 0.007241s, max: 0.034686, avg: 0.0124069s)
+z__g_loadSubGraph_read_begpos:		0.463817s	 (count: 794, min: 0.000145s, max: 0.004044, avg: 0.000584152s)
+z__g_loadSubGraph_read_csr:		9.38473s	 (count: 794, min: 0.007043s, max: 0.030633, avg: 0.0118196s)
+z__g_loadSubGraph_realloc_csr:		6.5e-05s	 (count: 794, min: 0s, max: 1e-06, avg: 8.1864e-08s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.00015s	 (count: 1054, min: 0s, max: 1e-06, avg: 1.42315e-07s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/soc-friendster.txt
+
+
+Random walks:	Start 10000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		216
+[Timings]
+00_runtime:		9.8897 s
+0_startWalks:		0.012163 s
+1_chooseBlock:		0.000491s	 (count: 1061, min: 0s, max: 1e-06, avg: 4.62771e-07s)
+2_findSubGraph:		9.86186s	 (count: 1061, min: 0s, max: 0.032751, avg: 0.00929487s)
+3_getCurrentWalks:		0.001016s	 (count: 1061, min: 0s, max: 1.1e-05, avg: 9.57587e-07s)
+5_exec_updates:		0.021712s	 (count: 1061, min: 0s, max: 5.7e-05, avg: 2.04637e-05s)
+6_updateWalkNum:		0.002903s	 (count: 1061, min: 0s, max: 8e-06, avg: 2.7361e-06s)
+g_loadSubGraph:		9.85827s	 (count: 794, min: 0.003116s, max: 0.032751, avg: 0.012416s)
+z__g_loadSubGraph_read_begpos:		0.464462s	 (count: 794, min: 0.000152s, max: 0.004476, avg: 0.000584965s)
+z__g_loadSubGraph_read_csr:		9.39137s	 (count: 794, min: 0.002299s, max: 0.028419, avg: 0.0118279s)
+z__g_loadSubGraph_realloc_csr:		7.6e-05s	 (count: 794, min: 0s, max: 1e-06, avg: 9.57179e-08s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.000156s	 (count: 1061, min: 0s, max: 3e-06, avg: 1.47031e-07s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/soc-friendster.txt
+
+

@@ -1,0 +1,79 @@
+bin/apps/rwdomination file Dataset/soc-twitter-mpi-sws.txt N 41652231 L 6
+
+ === REPORT FOR RWDomination() ===
+[Numeric]
+nblocks:		11
+[Timings]
+00_runtime:		9.13325 s
+0_startWalks:		0.141126 s
+1_chooseBlock:		3.6e-05s	 (count: 68, min: 0s, max: 1e-06, avg: 5.29412e-07s)
+2_findSubGraph:		3.29319s	 (count: 68, min: 0s, max: 0.240246, avg: 0.0484292s)
+3_getCurrentWalks:		0.558269s	 (count: 68, min: 2e-06s, max: 0.041537, avg: 0.00820984s)
+4_writeWalks2Disk:		1.15429s	 (count: 49037, min: 0s, max: 0.00382, avg: 2.354e-05s)
+5_exec_updates:		5.23679s	 (count: 68, min: 9e-06s, max: 0.46591, avg: 0.0770116s)
+6_updateWalkNum:		0.044558s	 (count: 68, min: 0s, max: 0.00446, avg: 0.000655265s)
+g_loadSubGraph:		3.28265s	 (count: 26, min: 0.061009s, max: 0.240245, avg: 0.126256s)
+z__g_loadSubGraph_read_begpos:		0.290732s	 (count: 26, min: 0.000599s, max: 0.058552, avg: 0.011182s)
+z__g_loadSubGraph_read_csr:		2.99162s	 (count: 26, min: 0.059739s, max: 0.195742, avg: 0.115062s)
+z__g_loadSubGraph_realloc_csr:		6e-06s	 (count: 26, min: 0s, max: 1e-06, avg: 2.30769e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.044463s	 (count: 68, min: 0s, max: 0.004457, avg: 0.000653868s)
+z_w_readWalksfromDisk:		0.554892s	 (count: 52, min: 4.9e-05s, max: 0.04152, avg: 0.010671s)
+[Other]
+app:	RWDomination
+engine:	default
+file:	Dataset/soc-twitter-mpi-sws.txt
+
+
+
+ === REPORT FOR RWDomination() ===
+[Numeric]
+nblocks:		11
+[Timings]
+00_runtime:		9.14492 s
+0_startWalks:		0.142807 s
+1_chooseBlock:		3.6e-05s	 (count: 68, min: 0s, max: 1e-06, avg: 5.29412e-07s)
+2_findSubGraph:		3.25225s	 (count: 68, min: 0s, max: 0.231284, avg: 0.0478272s)
+3_getCurrentWalks:		0.552999s	 (count: 68, min: 2e-06s, max: 0.041121, avg: 0.00813234s)
+4_writeWalks2Disk:		1.19007s	 (count: 49044, min: 0s, max: 0.004213, avg: 2.4267e-05s)
+5_exec_updates:		5.29576s	 (count: 68, min: 9e-06s, max: 0.468736, avg: 0.0778788s)
+6_updateWalkNum:		0.04349s	 (count: 68, min: 0s, max: 0.004727, avg: 0.000639559s)
+g_loadSubGraph:		3.24186s	 (count: 26, min: 0.06118s, max: 0.231283, avg: 0.124687s)
+z__g_loadSubGraph_read_begpos:		0.278057s	 (count: 26, min: 0.000596s, max: 0.053416, avg: 0.0106945s)
+z__g_loadSubGraph_read_csr:		2.96352s	 (count: 26, min: 0.059621s, max: 0.188521, avg: 0.113981s)
+z__g_loadSubGraph_realloc_csr:		1.2e-05s	 (count: 26, min: 0s, max: 1e-06, avg: 4.61538e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.043397s	 (count: 68, min: 0s, max: 0.004726, avg: 0.000638191s)
+z_w_readWalksfromDisk:		0.549577s	 (count: 52, min: 4.9e-05s, max: 0.041104, avg: 0.0105688s)
+[Other]
+app:	RWDomination
+engine:	default
+file:	Dataset/soc-twitter-mpi-sws.txt
+
+
+
+ === REPORT FOR RWDomination() ===
+[Numeric]
+nblocks:		11
+[Timings]
+00_runtime:		9.15453 s
+0_startWalks:		0.142622 s
+1_chooseBlock:		3.6e-05s	 (count: 68, min: 0s, max: 1e-06, avg: 5.29412e-07s)
+2_findSubGraph:		3.28178s	 (count: 68, min: 0s, max: 0.239665, avg: 0.0482615s)
+3_getCurrentWalks:		0.554032s	 (count: 68, min: 1e-06s, max: 0.041648, avg: 0.00814753s)
+4_writeWalks2Disk:		1.12444s	 (count: 49018, min: 0s, max: 0.000548, avg: 2.29403e-05s)
+5_exec_updates:		5.27574s	 (count: 68, min: 8e-06s, max: 0.468305, avg: 0.0775844s)
+6_updateWalkNum:		0.042562s	 (count: 68, min: 0s, max: 0.005396, avg: 0.000625912s)
+g_loadSubGraph:		3.27137s	 (count: 26, min: 0.061246s, max: 0.239664, avg: 0.125822s)
+z__g_loadSubGraph_read_begpos:		0.277845s	 (count: 26, min: 0.000602s, max: 0.056531, avg: 0.0106863s)
+z__g_loadSubGraph_read_csr:		2.99324s	 (count: 26, min: 0.059678s, max: 0.193075, avg: 0.115125s)
+z__g_loadSubGraph_realloc_csr:		1e-05s	 (count: 26, min: 0s, max: 1e-06, avg: 3.84615e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.042473s	 (count: 68, min: 0s, max: 0.005394, avg: 0.000624603s)
+z_w_readWalksfromDisk:		0.55073s	 (count: 52, min: 5.1e-05s, max: 0.041632, avg: 0.010591s)
+[Other]
+app:	RWDomination
+engine:	default
+file:	Dataset/soc-twitter-mpi-sws.txt
+
+

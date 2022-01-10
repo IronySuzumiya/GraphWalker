@@ -1,0 +1,79 @@
+bin/apps/rwdomination file Dataset/rmat2b.txt N 62499942 L 6
+
+ === REPORT FOR RWDomination() ===
+[Numeric]
+nblocks:		15
+[Timings]
+00_runtime:		15.2295 s
+0_startWalks:		0.116133 s
+1_chooseBlock:		4.8e-05s	 (count: 86, min: 0s, max: 1e-06, avg: 5.5814e-07s)
+2_findSubGraph:		5.33627s	 (count: 86, min: 0s, max: 0.215332, avg: 0.0620496s)
+3_getCurrentWalks:		0.944061s	 (count: 86, min: 1e-06s, max: 0.030091, avg: 0.0109775s)
+4_writeWalks2Disk:		1.98902s	 (count: 85314, min: 0s, max: 0.004796, avg: 2.33151e-05s)
+5_exec_updates:		8.8738s	 (count: 86, min: 3e-06s, max: 0.289433, avg: 0.103184s)
+6_updateWalkNum:		0.074773s	 (count: 86, min: 0s, max: 0.002912, avg: 0.000869453s)
+g_loadSubGraph:		5.3181s	 (count: 50, min: 0.059934s, max: 0.21533, avg: 0.106362s)
+z__g_loadSubGraph_read_begpos:		0.466557s	 (count: 50, min: 0.000455s, max: 0.041791, avg: 0.00933114s)
+z__g_loadSubGraph_read_csr:		4.85107s	 (count: 50, min: 0.05773s, max: 0.196707, avg: 0.0970214s)
+z__g_loadSubGraph_realloc_csr:		1.8e-05s	 (count: 50, min: 0s, max: 1e-06, avg: 3.6e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.074642s	 (count: 86, min: 0s, max: 0.002909, avg: 0.00086793s)
+z_w_readWalksfromDisk:		0.939556s	 (count: 71, min: 3.8e-05s, max: 0.030073, avg: 0.0132332s)
+[Other]
+app:	RWDomination
+engine:	default
+file:	Dataset/rmat2b.txt
+
+
+
+ === REPORT FOR RWDomination() ===
+[Numeric]
+nblocks:		15
+[Timings]
+00_runtime:		15.2511 s
+0_startWalks:		0.116905 s
+1_chooseBlock:		4.6e-05s	 (count: 86, min: 0s, max: 1e-06, avg: 5.34884e-07s)
+2_findSubGraph:		5.3547s	 (count: 86, min: 0s, max: 0.218858, avg: 0.0622639s)
+3_getCurrentWalks:		0.94905s	 (count: 86, min: 0s, max: 0.02966, avg: 0.0110355s)
+4_writeWalks2Disk:		1.92519s	 (count: 85300, min: -1e-06s, max: 0.001285, avg: 2.25704e-05s)
+5_exec_updates:		8.86651s	 (count: 86, min: 3e-06s, max: 0.28818, avg: 0.103099s)
+6_updateWalkNum:		0.073709s	 (count: 86, min: 0s, max: 0.002812, avg: 0.000857081s)
+g_loadSubGraph:		5.33652s	 (count: 50, min: 0.05964s, max: 0.218857, avg: 0.10673s)
+z__g_loadSubGraph_read_begpos:		0.455077s	 (count: 50, min: 0.000469s, max: 0.037833, avg: 0.00910154s)
+z__g_loadSubGraph_read_csr:		4.88096s	 (count: 50, min: 0.057458s, max: 0.195154, avg: 0.0976193s)
+z__g_loadSubGraph_realloc_csr:		1.9e-05s	 (count: 50, min: 0s, max: 1e-06, avg: 3.8e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.073562s	 (count: 86, min: 0s, max: 0.002809, avg: 0.000855372s)
+z_w_readWalksfromDisk:		0.944403s	 (count: 71, min: 3.6e-05s, max: 0.029642, avg: 0.0133015s)
+[Other]
+app:	RWDomination
+engine:	default
+file:	Dataset/rmat2b.txt
+
+
+
+ === REPORT FOR RWDomination() ===
+[Numeric]
+nblocks:		15
+[Timings]
+00_runtime:		15.3152 s
+0_startWalks:		0.108672 s
+1_chooseBlock:		5.5e-05s	 (count: 86, min: 0s, max: 1e-06, avg: 6.39535e-07s)
+2_findSubGraph:		5.35596s	 (count: 86, min: 0s, max: 0.221499, avg: 0.0622786s)
+3_getCurrentWalks:		0.951728s	 (count: 86, min: 1e-06s, max: 0.029746, avg: 0.0110666s)
+4_writeWalks2Disk:		1.96095s	 (count: 85286, min: -1e-06s, max: 0.002605, avg: 2.29948e-05s)
+5_exec_updates:		8.93398s	 (count: 86, min: 5e-06s, max: 0.289417, avg: 0.103884s)
+6_updateWalkNum:		0.072914s	 (count: 86, min: 0s, max: 0.002825, avg: 0.000847837s)
+g_loadSubGraph:		5.33765s	 (count: 50, min: 0.060242s, max: 0.221497, avg: 0.106753s)
+z__g_loadSubGraph_read_begpos:		0.452223s	 (count: 50, min: 0.000464s, max: 0.039839, avg: 0.00904446s)
+z__g_loadSubGraph_read_csr:		4.88493s	 (count: 50, min: 0.058017s, max: 0.190768, avg: 0.0976986s)
+z__g_loadSubGraph_realloc_csr:		2.6e-05s	 (count: 50, min: 0s, max: 1e-06, avg: 5.2e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.072783s	 (count: 86, min: 0s, max: 0.002823, avg: 0.000846314s)
+z_w_readWalksfromDisk:		0.947157s	 (count: 71, min: 3.8e-05s, max: 0.029728, avg: 0.0133402s)
+[Other]
+app:	RWDomination
+engine:	default
+file:	Dataset/rmat2b.txt
+
+

@@ -1,0 +1,79 @@
+bin/apps/rwdomination file Dataset/soc-friendster.txt N 65608366 L 6
+
+ === REPORT FOR RWDomination() ===
+[Numeric]
+nblocks:		27
+[Timings]
+00_runtime:		23.9344 s
+0_startWalks:		0.079283 s
+1_chooseBlock:		8.8e-05s	 (count: 159, min: 0s, max: 2e-06, avg: 5.53459e-07s)
+2_findSubGraph:		11.1538s	 (count: 159, min: 0s, max: 0.207112, avg: 0.07015s)
+3_getCurrentWalks:		0.878517s	 (count: 159, min: 0s, max: 0.017003, avg: 0.00552526s)
+4_writeWalks2Disk:		1.95827s	 (count: 83477, min: 0s, max: 0.000743, avg: 2.34593e-05s)
+5_exec_updates:		11.8467s	 (count: 159, min: 1e-06s, max: 0.255995, avg: 0.0745076s)
+6_updateWalkNum:		0.054302s	 (count: 159, min: 0s, max: 0.002474, avg: 0.000341522s)
+g_loadSubGraph:		11.147s	 (count: 122, min: 0.059931s, max: 0.207111, avg: 0.0913688s)
+z__g_loadSubGraph_read_begpos:		0.525536s	 (count: 122, min: 0.00113s, max: 0.018586, avg: 0.00430767s)
+z__g_loadSubGraph_read_csr:		10.6208s	 (count: 122, min: 0.057633s, max: 0.194664, avg: 0.087056s)
+z__g_loadSubGraph_realloc_csr:		3.8e-05s	 (count: 122, min: 0s, max: 1e-06, avg: 3.11475e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.054012s	 (count: 159, min: 0s, max: 0.00247, avg: 0.000339698s)
+z_w_readWalksfromDisk:		0.871084s	 (count: 125, min: 6.7e-05s, max: 0.016923, avg: 0.00696867s)
+[Other]
+app:	RWDomination
+engine:	default
+file:	Dataset/soc-friendster.txt
+
+
+
+ === REPORT FOR RWDomination() ===
+[Numeric]
+nblocks:		27
+[Timings]
+00_runtime:		23.9227 s
+0_startWalks:		0.07772 s
+1_chooseBlock:		8.2e-05s	 (count: 157, min: 0s, max: 1e-06, avg: 5.22293e-07s)
+2_findSubGraph:		11.1525s	 (count: 157, min: 0s, max: 0.209247, avg: 0.0710353s)
+3_getCurrentWalks:		0.879511s	 (count: 157, min: 0s, max: 0.018879, avg: 0.00560198s)
+4_writeWalks2Disk:		1.94696s	 (count: 83408, min: -1e-06s, max: 0.000356, avg: 2.33425e-05s)
+5_exec_updates:		11.8347s	 (count: 157, min: 5e-06s, max: 0.256967, avg: 0.0753806s)
+6_updateWalkNum:		0.054875s	 (count: 157, min: 0s, max: 0.001939, avg: 0.000349522s)
+g_loadSubGraph:		11.1465s	 (count: 122, min: 0.059099s, max: 0.209247, avg: 0.091365s)
+z__g_loadSubGraph_read_begpos:		0.527202s	 (count: 122, min: 0.001127s, max: 0.019088, avg: 0.00432133s)
+z__g_loadSubGraph_read_csr:		10.6187s	 (count: 122, min: 0.056708s, max: 0.191267, avg: 0.0870388s)
+z__g_loadSubGraph_realloc_csr:		2.9e-05s	 (count: 122, min: 0s, max: 1e-06, avg: 2.37705e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.054595s	 (count: 157, min: 0s, max: 0.001936, avg: 0.000347739s)
+z_w_readWalksfromDisk:		0.872078s	 (count: 125, min: 7e-05s, max: 0.018805, avg: 0.00697662s)
+[Other]
+app:	RWDomination
+engine:	default
+file:	Dataset/soc-friendster.txt
+
+
+
+ === REPORT FOR RWDomination() ===
+[Numeric]
+nblocks:		27
+[Timings]
+00_runtime:		23.8639 s
+0_startWalks:		0.082416 s
+1_chooseBlock:		8.4e-05s	 (count: 157, min: 0s, max: 2e-06, avg: 5.35032e-07s)
+2_findSubGraph:		11.1225s	 (count: 157, min: 0s, max: 0.207301, avg: 0.0708442s)
+3_getCurrentWalks:		0.875267s	 (count: 157, min: 1e-06s, max: 0.017021, avg: 0.00557495s)
+4_writeWalks2Disk:		2.01156s	 (count: 83395, min: -1e-06s, max: 0.004007, avg: 2.41212e-05s)
+5_exec_updates:		11.8105s	 (count: 157, min: 6e-06s, max: 0.256239, avg: 0.0752261s)
+6_updateWalkNum:		0.054579s	 (count: 157, min: 0s, max: 0.002174, avg: 0.000347637s)
+g_loadSubGraph:		11.1167s	 (count: 122, min: 0.05961s, max: 0.2073, avg: 0.0911204s)
+z__g_loadSubGraph_read_begpos:		0.517932s	 (count: 122, min: 0.001097s, max: 0.019207, avg: 0.00424534s)
+z__g_loadSubGraph_read_csr:		10.5981s	 (count: 122, min: 0.057186s, max: 0.196385, avg: 0.08687s)
+z__g_loadSubGraph_realloc_csr:		3.9e-05s	 (count: 122, min: 0s, max: 1e-06, avg: 3.19672e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.054303s	 (count: 157, min: 0s, max: 0.002171, avg: 0.000345879s)
+z_w_readWalksfromDisk:		0.867777s	 (count: 125, min: 7.3e-05s, max: 0.016948, avg: 0.00694222s)
+[Other]
+app:	RWDomination
+engine:	default
+file:	Dataset/soc-friendster.txt
+
+

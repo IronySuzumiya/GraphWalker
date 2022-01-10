@@ -1,0 +1,82 @@
+bin/apps/rawrandomwalks file Dataset/rmat8b.txt N 249999941 R 10000000 L 512
+Random walks:	Start 10000000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		60
+[Timings]
+00_runtime:		2153.64 s
+0_startWalks:		2.33721 s
+1_chooseBlock:		0.01007s	 (count: 17123, min: 0s, max: 2e-06, avg: 5.88098e-07s)
+2_findSubGraph:		1961.63s	 (count: 17123, min: 0s, max: 0.250311, avg: 0.114561s)
+3_getCurrentWalks:		16.0022s	 (count: 17123, min: 0s, max: 0.007263, avg: 0.000934541s)
+4_writeWalks2Disk:		40.0039s	 (count: 1121510, min: -0.000817s, max: 0.004553, avg: 3.56698e-05s)
+5_exec_updates:		175.808s	 (count: 17123, min: 0s, max: 0.020302, avg: 0.0102673s)
+6_updateWalkNum:		0.059218s	 (count: 17123, min: 0s, max: 0.000166, avg: 3.45839e-06s)
+g_loadSubGraph:		1949.51s	 (count: 15091, min: 0.059957s, max: 0.25031, avg: 0.129184s)
+z__g_loadSubGraph_read_begpos:		166.537s	 (count: 15091, min: 0.000148s, max: 0.060647, avg: 0.0110355s)
+z__g_loadSubGraph_read_csr:		1782.82s	 (count: 15091, min: 0.037807s, max: 0.215908, avg: 0.118138s)
+z__g_loadSubGraph_realloc_csr:		0.005794s	 (count: 15091, min: 0s, max: 7e-06, avg: 3.83937e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.013371s	 (count: 17123, min: 0s, max: 0.000164, avg: 7.8088e-07s)
+z_w_readWalksfromDisk:		15.4353s	 (count: 15639, min: 4.1e-05s, max: 0.007233, avg: 0.000986978s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/rmat8b.txt
+
+
+Random walks:	Start 10000000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		60
+[Timings]
+00_runtime:		2164.03 s
+0_startWalks:		2.35473 s
+1_chooseBlock:		0.009603s	 (count: 17141, min: 0s, max: 2.7e-05, avg: 5.60236e-07s)
+2_findSubGraph:		1971.35s	 (count: 17141, min: 0s, max: 0.263752, avg: 0.115008s)
+3_getCurrentWalks:		16.0862s	 (count: 17141, min: 0s, max: 0.011445, avg: 0.000938464s)
+4_writeWalks2Disk:		40.02s	 (count: 1120227, min: 0s, max: 0.003633, avg: 3.5725e-05s)
+5_exec_updates:		176.395s	 (count: 17141, min: 1e-06s, max: 0.020209, avg: 0.0102908s)
+6_updateWalkNum:		0.060445s	 (count: 17141, min: 0s, max: 0.000141, avg: 3.52634e-06s)
+g_loadSubGraph:		1959.24s	 (count: 15112, min: 0.05928s, max: 0.263751, avg: 0.129648s)
+z__g_loadSubGraph_read_begpos:		166.758s	 (count: 15112, min: 0.000155s, max: 0.071695, avg: 0.0110348s)
+z__g_loadSubGraph_read_csr:		1792.33s	 (count: 15112, min: 0.03822s, max: 0.222564, avg: 0.118603s)
+z__g_loadSubGraph_realloc_csr:		0.005792s	 (count: 15112, min: 0s, max: 1.6e-05, avg: 3.83272e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.013335s	 (count: 17141, min: 0s, max: 0.000137, avg: 7.77959e-07s)
+z_w_readWalksfromDisk:		15.5165s	 (count: 15637, min: 7e-05s, max: 0.01142, avg: 0.000992297s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/rmat8b.txt
+
+
+Random walks:	Start 10000000 walks randomly ...
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		60
+[Timings]
+00_runtime:		2175.59 s
+0_startWalks:		2.3625 s
+1_chooseBlock:		0.009632s	 (count: 17127, min: 0s, max: 2.2e-05, avg: 5.62387e-07s)
+2_findSubGraph:		1981.83s	 (count: 17127, min: 0s, max: 0.265315, avg: 0.115714s)
+3_getCurrentWalks:		16.452s	 (count: 17127, min: 0s, max: 0.013474, avg: 0.000960589s)
+4_writeWalks2Disk:		40.1741s	 (count: 1120190, min: -1e-06s, max: 0.004131, avg: 3.58637e-05s)
+5_exec_updates:		177.105s	 (count: 17127, min: 1e-06s, max: 0.022342, avg: 0.0103407s)
+6_updateWalkNum:		0.059953s	 (count: 17127, min: 0s, max: 0.000167, avg: 3.5005e-06s)
+g_loadSubGraph:		1969.26s	 (count: 15096, min: 0.060312s, max: 0.265313, avg: 0.130449s)
+z__g_loadSubGraph_read_begpos:		168.826s	 (count: 15096, min: 0.000152s, max: 0.077961, avg: 0.0111835s)
+z__g_loadSubGraph_read_csr:		1800.27s	 (count: 15096, min: 0.037559s, max: 0.218594, avg: 0.119255s)
+z__g_loadSubGraph_realloc_csr:		0.006092s	 (count: 15096, min: 0s, max: 1e-05, avg: 4.03551e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.011241s	 (count: 17127, min: 0s, max: 0.000164, avg: 6.56332e-07s)
+z_w_readWalksfromDisk:		15.8839s	 (count: 15659, min: 5e-05s, max: 0.013443, avg: 0.00101436s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/rmat8b.txt
+
+

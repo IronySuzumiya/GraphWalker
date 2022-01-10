@@ -1,0 +1,156 @@
+Random walks:	Start 1000000 walks randomly ...
+[epoch_0]
+time = 0.068022
+blockcount = 1
+walksum = 1000000
+nwalks_29 = 113030
+subgraph_read_times = 1
+subgraph_read_bytes = 272955804
+walk_read_times = 1
+walk_read_bytes = 524288
+walk_write_times = 58
+walk_write_bytes = 1900544
+[epoch_1]
+time = 1.22023
+blockcount = 18
+walksum = 999693
+nwalks_11 = 69268
+subgraph_read_times = 18
+subgraph_read_bytes = 5172387680
+walk_read_times = 11
+walk_read_bytes = 4620288
+walk_write_times = 157
+walk_write_bytes = 5144576
+[epoch_2]
+time = 1.70366
+blockcount = 35
+walksum = 990962
+nwalks_25 = 68833
+subgraph_read_times = 30
+subgraph_read_bytes = 8499999776
+walk_read_times = 27
+walk_read_bytes = 12025856
+walk_write_times = 366
+walk_write_bytes = 11993088
+[epoch_3]
+time = 1.95472
+blockcount = 52
+walksum = 934469
+nwalks_22 = 68243
+subgraph_read_times = 36
+subgraph_read_bytes = 10179555036
+walk_read_times = 39
+walk_read_bytes = 16351232
+walk_write_times = 514
+walk_write_bytes = 16842752
+[epoch_4]
+time = 2.29384
+blockcount = 69
+walksum = 750574
+nwalks_18 = 51903
+subgraph_read_times = 44
+subgraph_read_bytes = 12421987896
+walk_read_times = 47
+walk_read_bytes = 19955712
+walk_write_times = 607
+walk_write_bytes = 19890176
+[epoch_5]
+time = 2.72546
+blockcount = 86
+walksum = 467515
+nwalks_15 = 39706
+subgraph_read_times = 55
+subgraph_read_bytes = 15535678632
+walk_read_times = 47
+walk_read_bytes = 19955712
+walk_write_times = 607
+walk_write_bytes = 19890176
+[epoch_6]
+time = 2.89172
+blockcount = 103
+walksum = 195336
+nwalks_16 = 16687
+subgraph_read_times = 59
+subgraph_read_bytes = 16676214100
+walk_read_times = 47
+walk_read_bytes = 19955712
+walk_write_times = 607
+walk_write_bytes = 19890176
+[epoch_7]
+time = 3.33431
+blockcount = 120
+walksum = 49172
+nwalks_10 = 5665
+subgraph_read_times = 71
+subgraph_read_bytes = 20066338700
+walk_read_times = 47
+walk_read_bytes = 19955712
+walk_write_times = 607
+walk_write_bytes = 19890176
+[epoch_8]
+time = 3.51853
+blockcount = 137
+walksum = 6699
+nwalks_2 = 993
+subgraph_read_times = 76
+subgraph_read_bytes = 21462409692
+walk_read_times = 47
+walk_read_bytes = 19955712
+walk_write_times = 607
+walk_write_bytes = 19890176
+[epoch_9]
+time = 3.88871
+blockcount = 154
+walksum = 321
+nwalks_1 = 14
+subgraph_read_times = 86
+subgraph_read_bytes = 24307101264
+walk_read_times = 47
+walk_read_bytes = 19955712
+walk_write_times = 607
+walk_write_bytes = 19890176
+[epoch_10]
+time = 4.19912
+blockcount = 171
+walksum = 2
+nwalks_5 = 1
+subgraph_read_times = 95
+subgraph_read_bytes = 26807233640
+walk_read_times = 47
+walk_read_bytes = 19955712
+walk_write_times = 607
+walk_write_bytes = 19890176
+
+[summary]
+nepochs = 11
+subgraph read times = 96
+subgraph read bytes = 27118503312
+walk read times = 47
+walk read bytes = 19955712
+walk write times = 607
+walk write bytes = 19890176
+
+
+ === REPORT FOR randomwalks() ===
+[Numeric]
+nblocks:		30
+[Timings]
+00_runtime:		4.24136 s
+0_startWalks:		0.278486 s
+1_chooseBlock:		0.000138s	 (count: 172, min: 0s, max: 2e-06, avg: 8.02326e-07s)
+2_findSubGraph:		4.00058s	 (count: 172, min: 0s, max: 0.07849, avg: 0.0232592s)
+3_getCurrentWalks:		0.049993s	 (count: 172, min: 1e-06s, max: 0.006648, avg: 0.000290657s)
+4_writeWalks2Disk:		0.024463s	 (count: 609, min: 1e-06s, max: 0.000136, avg: 4.01691e-05s)
+5_exec_updates:		0.188792s	 (count: 172, min: 2e-06s, max: 0.004631, avg: 0.00109763s)
+6_updateWalkNum:		0.000873s	 (count: 172, min: 1e-06s, max: 4.3e-05, avg: 5.07558e-06s)
+g_loadSubGraph:		3.97783s	 (count: 96, min: 0.0317s, max: 0.078489, avg: 0.0414357s)
+z__g_loadSubGraph_read_begpos:		0.386901s	 (count: 96, min: 0.000189s, max: 0.015281, avg: 0.00403022s)
+z__g_loadSubGraph_read_csr:		3.59001s	 (count: 96, min: 0.025295s, max: 0.071899, avg: 0.0373959s)
+z__g_loadSubGraph_realloc_csr:		4.1e-05s	 (count: 96, min: 0s, max: 1e-06, avg: 4.27083e-07s)
+z_g_swapOut:		0 s
+z_w_clear_curwalks:		0.000152s	 (count: 172, min: 0s, max: 3.9e-05, avg: 8.83721e-07s)
+z_w_readWalksfromDisk:		0.013794s	 (count: 47, min: 1.9e-05s, max: 0.006611, avg: 0.000293489s)
+[Other]
+app:	randomwalks
+engine:	default
+file:	Dataset/rmat2b.txt
