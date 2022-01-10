@@ -293,7 +293,7 @@ public:
             nwalks = walk_manager->getCurrentWalks(exec_block);
 
             double my_new_time = runtime();
-            if(my_new_time >= my_time + 5) {
+            if(my_new_time >= my_time + 5 || blockcount % (1024*1024*1024/nedges+1) == 1) {
                 my_time = my_new_time;
             // if(blockcount % (nblocks/100+1)==1)
             //if(blockcount % (1024*1024*1024/nedges+1) == 1)
